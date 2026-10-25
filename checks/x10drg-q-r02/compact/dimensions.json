@@ -1,0 +1,947 @@
+{
+  "units": "mm",
+  "depth": 584.2,
+  "datums": {
+    "slot_planes_x": {
+      "8": 252.0,
+      "6": 292.64,
+      "4": 333.28,
+      "2": 373.92
+    },
+    "pcb_bottom_z": 25.4,
+    "gpu_front_y": 282.9,
+    "duct_outlet_y": 283.4,
+    "duct_rise_end_y": 310.0,
+    "duct_transition_start_y": 475.0,
+    "duct_fan_rear_y": 524.0,
+    "duct_fan_intake_y": 549.0,
+    "front_fan_rear_y": 554.2,
+    "fan_bank_gap_y": 5.2000000000000455,
+    "psu_front_y": 520.0,
+    "pcb_front_y": 356.218,
+    "psu_to_pcb_gap_y": 13.781999999999982,
+    "baseline_y350_duct_anchor_checks": [
+      {
+        "anchor_xy": [
+          260,
+          350
+        ],
+        "covered_by_board": true
+      },
+      {
+        "anchor_xy": [
+          400,
+          350
+        ],
+        "covered_by_board": true
+      }
+    ],
+    "old_y350_duct_anchors_covered_by_board": true,
+    "passive_duct_inlet_areas_mm2": {
+      "8": 14400.0,
+      "6": 14400.0,
+      "4": 14400.0
+    },
+    "flow_distribution_status": "One equal-area fan face per passive GPU. Paths, bends and actual heatsinks differ: equal airflow is NOT established.",
+    "r02_joint_y": 450,
+    "dedicated_fan_count": 3,
+    "joints": {
+      "8": {
+        "radial_clearance_mm": 0.3,
+        "split_gap_mm": 1,
+        "bolts": "2 x M3x16 provisional; actual head/nut dimensions and engagement require fit check",
+        "bearing_stack_mm": 9,
+        "retention": "FRICTION ONLY; axial pull test required; not a structural support",
+        "spigot_length_mm": 10,
+        "spigot_wall_mm": 1.6,
+        "spigot_radial_clearance_mm": 0.3,
+        "male_female_intersection_mm3": 0.0,
+        "male_outer_wh_mm": [
+          25.4,
+          81.4
+        ],
+        "receiver_inner_wh_mm": [
+          26.0,
+          82.0
+        ],
+        "spigot_y_section_airway_wh_mm": [
+          22.2,
+          78.2
+        ],
+        "spigot_y_section_airway_area_mm2": 1736.04,
+        "middle_y_section_airway_area_mm2": 2132.0,
+        "joint_area_reduction_fraction": 0.18572232645403375,
+        "nominal_fan_face_area_mm2": 14400.0,
+        "duct_fan_opening_area_mm2": 13456.0,
+        "area_scope": "Areas are sections perpendicular to chassis Y, not a proven minimum flow-normal airway. Inclined passages, bends, contractions and real heatsinks require pressure/flow testing.",
+        "route_rise_angle_degrees": 44.714948722416175,
+        "airflow_direction": "Front fan -> FAN_HALF -> joint -> GPU_HALF -> GPU; pressure loss is untested"
+      },
+      "6": {
+        "radial_clearance_mm": 0.3,
+        "split_gap_mm": 1,
+        "bolts": "2 x M3x16 provisional; actual head/nut dimensions and engagement require fit check",
+        "bearing_stack_mm": 9,
+        "retention": "FRICTION ONLY; axial pull test required; not a structural support",
+        "spigot_length_mm": 10,
+        "spigot_wall_mm": 1.6,
+        "spigot_radial_clearance_mm": 0.3,
+        "male_female_intersection_mm3": 0.0,
+        "male_outer_wh_mm": [
+          25.4,
+          81.4
+        ],
+        "receiver_inner_wh_mm": [
+          26.0,
+          82.0
+        ],
+        "spigot_y_section_airway_wh_mm": [
+          22.2,
+          78.2
+        ],
+        "spigot_y_section_airway_area_mm2": 1736.04,
+        "middle_y_section_airway_area_mm2": 2132.0,
+        "joint_area_reduction_fraction": 0.18572232645403375,
+        "nominal_fan_face_area_mm2": 14400.0,
+        "duct_fan_opening_area_mm2": 13456.0,
+        "area_scope": "Areas are sections perpendicular to chassis Y, not a proven minimum flow-normal airway. Inclined passages, bends, contractions and real heatsinks require pressure/flow testing.",
+        "route_rise_angle_degrees": 0.0,
+        "airflow_direction": "Front fan -> FAN_HALF -> joint -> GPU_HALF -> GPU; pressure loss is untested"
+      },
+      "4": {
+        "radial_clearance_mm": 0.3,
+        "split_gap_mm": 1,
+        "bolts": "2 x M3x16 provisional; actual head/nut dimensions and engagement require fit check",
+        "bearing_stack_mm": 9,
+        "retention": "FRICTION ONLY; axial pull test required; not a structural support",
+        "spigot_length_mm": 10,
+        "spigot_wall_mm": 1.6,
+        "spigot_radial_clearance_mm": 0.3,
+        "male_female_intersection_mm3": 0.0,
+        "male_outer_wh_mm": [
+          25.4,
+          81.4
+        ],
+        "receiver_inner_wh_mm": [
+          26.0,
+          82.0
+        ],
+        "spigot_y_section_airway_wh_mm": [
+          22.2,
+          78.2
+        ],
+        "spigot_y_section_airway_area_mm2": 1736.04,
+        "middle_y_section_airway_area_mm2": 2132.0,
+        "joint_area_reduction_fraction": 0.18572232645403375,
+        "nominal_fan_face_area_mm2": 14400.0,
+        "duct_fan_opening_area_mm2": 13456.0,
+        "area_scope": "Areas are sections perpendicular to chassis Y, not a proven minimum flow-normal airway. Inclined passages, bends, contractions and real heatsinks require pressure/flow testing.",
+        "route_rise_angle_degrees": 0.0,
+        "airflow_direction": "Front fan -> FAN_HALF -> joint -> GPU_HALF -> GPU; pressure loss is untested"
+      }
+    }
+  },
+  "part_bounds": {
+    "CHASSIS_BOUNDARY_REFERENCE_NO_JOINTS_OR_MOUNTS": {
+      "xmin": 0.0,
+      "xmax": 444.5,
+      "ymin": 0.0,
+      "ymax": 584.2,
+      "zmin": 0.0,
+      "zmax": 260.35,
+      "xlen": 444.5,
+      "ylen": 584.2,
+      "zlen": 260.35
+    },
+    "PCB_REFERENCE_NO_MOUNTING_HOLES": {
+      "xmin": 25.0,
+      "xmax": 411.1,
+      "ymin": 20.918,
+      "ymax": 356.218,
+      "zmin": 25.4,
+      "zmax": 26.97,
+      "xlen": 386.1,
+      "ylen": 335.3,
+      "zlen": 1.57
+    },
+    "CPU1_COOLER_PROVISIONAL": {
+      "xmin": 110.0,
+      "xmax": 210.0,
+      "ymin": 217.0,
+      "ymax": 317.0,
+      "zmin": 26.97,
+      "zmax": 146.97,
+      "xlen": 100.0,
+      "ylen": 100.0,
+      "zlen": 120.0
+    },
+    "CPU2_COOLER_PROVISIONAL": {
+      "xmin": 55.0,
+      "xmax": 155.0,
+      "ymin": 85.0,
+      "ymax": 185.0,
+      "zmin": 26.97,
+      "zmax": 146.97,
+      "xlen": 100.0,
+      "ylen": 100.0,
+      "zlen": 120.0
+    },
+    "PCH_FRONT_COMPONENT_PROVISIONAL": {
+      "xmin": 310.0,
+      "xmax": 375.0,
+      "ymin": 300.0,
+      "ymax": 350.0,
+      "zmin": 26.97,
+      "zmax": 56.97,
+      "xlen": 65.0,
+      "ylen": 50.0,
+      "zlen": 30.0
+    },
+    "GPU_SLOT8_PASSIVE_PROVISIONAL": {
+      "xmin": 249.0,
+      "xmax": 289.64,
+      "ymin": 16.2,
+      "ymax": 282.9,
+      "zmin": 40.0,
+      "zmax": 151.76,
+      "xlen": 40.64,
+      "ylen": 266.7,
+      "zlen": 111.76
+    },
+    "GPU_SLOT6_PASSIVE_PROVISIONAL": {
+      "xmin": 289.64,
+      "xmax": 330.28,
+      "ymin": 16.2,
+      "ymax": 282.9,
+      "zmin": 40.0,
+      "zmax": 151.76,
+      "xlen": 40.64,
+      "ylen": 266.7,
+      "zlen": 111.76
+    },
+    "GPU_SLOT4_PASSIVE_PROVISIONAL": {
+      "xmin": 330.28,
+      "xmax": 370.92,
+      "ymin": 16.2,
+      "ymax": 282.9,
+      "zmin": 40.0,
+      "zmax": 151.76,
+      "xlen": 40.64,
+      "ylen": 266.7,
+      "zlen": 111.76
+    },
+    "GPU_SLOT2_BLOWER_PROVISIONAL": {
+      "xmin": 370.92,
+      "xmax": 411.56,
+      "ymin": 16.2,
+      "ymax": 282.9,
+      "zmin": 40.0,
+      "zmax": 151.76,
+      "xlen": 40.64,
+      "ylen": 266.7,
+      "zlen": 111.76
+    },
+    "NVLINK_8_6_UNMEASURED_RESERVATION": {
+      "xmin": 242.0,
+      "xmax": 302.64,
+      "ymin": 35.0,
+      "ymax": 220.0,
+      "zmin": 151.76,
+      "zmax": 176.76,
+      "xlen": 60.64,
+      "ylen": 185.0,
+      "zlen": 25.0
+    },
+    "NVLINK_4_2_UNMEASURED_RESERVATION": {
+      "xmin": 323.28,
+      "xmax": 383.92,
+      "ymin": 35.0,
+      "ymax": 220.0,
+      "zmin": 151.76,
+      "zmax": 176.76,
+      "xlen": 60.64,
+      "ylen": 185.0,
+      "zlen": 25.0
+    },
+    "BLOWER_SIDE_AIR_UNMEASURED_RESERVATION": {
+      "xmin": 411.56,
+      "xmax": 439.5,
+      "ymin": 170.0,
+      "ymax": 282.9,
+      "zmin": 50.0,
+      "zmax": 150.0,
+      "xlen": 27.94,
+      "ylen": 112.9,
+      "zlen": 100.0
+    },
+    "PSU1_BODY_PROVISIONAL": {
+      "xmin": 38.1,
+      "xmax": 198.1,
+      "ymin": 370.0,
+      "ymax": 520.0,
+      "zmin": 19.05,
+      "zmax": 105.05,
+      "xlen": 160.0,
+      "ylen": 150.0,
+      "zlen": 86.0
+    },
+    "PSU1_CABLE_RESERVATION": {
+      "xmin": 198.1,
+      "xmax": 228.1,
+      "ymin": 370.0,
+      "ymax": 520.0,
+      "zmin": 19.05,
+      "zmax": 105.05,
+      "xlen": 30.0,
+      "ylen": 150.0,
+      "zlen": 86.0
+    },
+    "PSU2_BODY_PROVISIONAL": {
+      "xmin": 38.1,
+      "xmax": 198.1,
+      "ymin": 370.0,
+      "ymax": 520.0,
+      "zmin": 164.35,
+      "zmax": 250.35,
+      "xlen": 160.0,
+      "ylen": 150.0,
+      "zlen": 86.0
+    },
+    "PSU2_CABLE_RESERVATION": {
+      "xmin": 198.1,
+      "xmax": 228.1,
+      "ymin": 370.0,
+      "ymax": 520.0,
+      "zmin": 164.35,
+      "zmax": 250.35,
+      "xlen": 30.0,
+      "ylen": 150.0,
+      "zlen": 86.0
+    },
+    "FRONT_FAN_139.5_79.05_FULL_KEEP_OUT": {
+      "xmin": 79.5,
+      "xmax": 199.5,
+      "ymin": 554.2,
+      "ymax": 579.2,
+      "zmin": 19.05,
+      "zmax": 139.05,
+      "xlen": 120.0,
+      "ylen": 25.0,
+      "zlen": 120.0
+    },
+    "FRONT_FAN_139.5_199.05_FULL_KEEP_OUT": {
+      "xmin": 79.5,
+      "xmax": 199.5,
+      "ymin": 554.2,
+      "ymax": 579.2,
+      "zmin": 139.05,
+      "zmax": 259.05,
+      "xlen": 120.0,
+      "ylen": 25.0,
+      "zlen": 120.0
+    },
+    "FRONT_FAN_259.5_79.05_FULL_KEEP_OUT": {
+      "xmin": 199.5,
+      "xmax": 319.5,
+      "ymin": 554.2,
+      "ymax": 579.2,
+      "zmin": 19.05,
+      "zmax": 139.05,
+      "xlen": 120.0,
+      "ylen": 25.0,
+      "zlen": 120.0
+    },
+    "FRONT_FAN_259.5_199.05_FULL_KEEP_OUT": {
+      "xmin": 199.5,
+      "xmax": 319.5,
+      "ymin": 554.2,
+      "ymax": 579.2,
+      "zmin": 139.05,
+      "zmax": 259.05,
+      "xlen": 120.0,
+      "ylen": 25.0,
+      "zlen": 120.0
+    },
+    "FRONT_FAN_379.5_79.05_FULL_KEEP_OUT": {
+      "xmin": 319.5,
+      "xmax": 439.5,
+      "ymin": 554.2,
+      "ymax": 579.2,
+      "zmin": 19.05,
+      "zmax": 139.05,
+      "xlen": 120.0,
+      "ylen": 25.0,
+      "zlen": 120.0
+    },
+    "FRONT_FAN_379.5_199.05_FULL_KEEP_OUT": {
+      "xmin": 319.5,
+      "xmax": 439.5,
+      "ymin": 554.2,
+      "ymax": 579.2,
+      "zmin": 139.05,
+      "zmax": 259.05,
+      "xlen": 120.0,
+      "ylen": 25.0,
+      "zlen": 120.0
+    },
+    "SLOT8_GPU_HALF_PROTOTYPE": {
+      "xmin": 251.0,
+      "xmax": 287.64,
+      "ymin": 283.4,
+      "ymax": 460.0,
+      "zmin": 43.0,
+      "zmax": 251.0,
+      "xlen": 36.64,
+      "ylen": 176.6,
+      "zlen": 208.0
+    },
+    "SLOT8_FAN_HALF_PROTOTYPE": {
+      "xmin": 192.0,
+      "xmax": 312.0,
+      "ymin": 450.0,
+      "ymax": 524.0,
+      "zmin": 139.05,
+      "zmax": 259.05,
+      "xlen": 120.0,
+      "ylen": 74.0,
+      "zlen": 120.0
+    },
+    "SLOT8_COLLAR_LOWER_PROTOTYPE": {
+      "xmin": 241.02,
+      "xmax": 297.62,
+      "ymin": 434.0,
+      "ymax": 466.0,
+      "zmin": 162.2,
+      "zmax": 207.5,
+      "xlen": 56.6,
+      "ylen": 32.0,
+      "zlen": 45.3
+    },
+    "SLOT8_COLLAR_UPPER_PROTOTYPE": {
+      "xmin": 241.02,
+      "xmax": 297.62,
+      "ymin": 434.0,
+      "ymax": 466.0,
+      "zmin": 208.5,
+      "zmax": 253.8,
+      "xlen": 56.6,
+      "ylen": 32.0,
+      "zlen": 45.3
+    },
+    "SLOT8_BOLT1_M3X16_ENVELOPE": {
+      "xmin": 243.77,
+      "xmax": 249.27,
+      "ymin": 447.25,
+      "ymax": 452.75,
+      "zmin": 196.5,
+      "zmax": 215.5,
+      "xlen": 5.5,
+      "ylen": 5.5,
+      "zlen": 19.0
+    },
+    "SLOT8_NUT1_M3_ENVELOPE": {
+      "xmin": 243.32,
+      "xmax": 249.72,
+      "ymin": 446.8,
+      "ymax": 453.2,
+      "zmin": 200.5,
+      "zmax": 203.5,
+      "xlen": 6.4,
+      "ylen": 6.4,
+      "zlen": 3.0
+    },
+    "SLOT8_BOLT2_M3X16_ENVELOPE": {
+      "xmin": 289.37,
+      "xmax": 294.87,
+      "ymin": 447.25,
+      "ymax": 452.75,
+      "zmin": 196.5,
+      "zmax": 215.5,
+      "xlen": 5.5,
+      "ylen": 5.5,
+      "zlen": 19.0
+    },
+    "SLOT8_NUT2_M3_ENVELOPE": {
+      "xmin": 288.92,
+      "xmax": 295.32,
+      "ymin": 446.8,
+      "ymax": 453.2,
+      "zmin": 200.5,
+      "zmax": 203.5,
+      "xlen": 6.4,
+      "ylen": 6.4,
+      "zlen": 3.0
+    },
+    "DEDICATED_FAN_SLOT8_FULL_KEEP_OUT": {
+      "xmin": 192.0,
+      "xmax": 312.0,
+      "ymin": 524.0,
+      "ymax": 549.0,
+      "zmin": 139.05,
+      "zmax": 259.05,
+      "xlen": 120.0,
+      "ylen": 25.0,
+      "zlen": 120.0
+    },
+    "SLOT6_GPU_HALF_PROTOTYPE": {
+      "xmin": 285.0,
+      "xmax": 328.28,
+      "ymin": 283.4,
+      "ymax": 460.0,
+      "zmin": 43.0,
+      "zmax": 151.0,
+      "xlen": 43.28,
+      "ylen": 176.6,
+      "zlen": 108.0
+    },
+    "SLOT6_FAN_HALF_PROTOTYPE": {
+      "xmin": 192.0,
+      "xmax": 315.0,
+      "ymin": 450.0,
+      "ymax": 524.0,
+      "zmin": 19.05,
+      "zmax": 151.0,
+      "xlen": 123.0,
+      "ylen": 74.0,
+      "zlen": 131.95
+    },
+    "SLOT6_COLLAR_LOWER_PROTOTYPE": {
+      "xmin": 271.7,
+      "xmax": 328.3,
+      "ymin": 434.0,
+      "ymax": 466.0,
+      "zmin": 62.2,
+      "zmax": 107.5,
+      "xlen": 56.6,
+      "ylen": 32.0,
+      "zlen": 45.3
+    },
+    "SLOT6_COLLAR_UPPER_PROTOTYPE": {
+      "xmin": 271.7,
+      "xmax": 328.3,
+      "ymin": 434.0,
+      "ymax": 466.0,
+      "zmin": 108.5,
+      "zmax": 153.8,
+      "xlen": 56.6,
+      "ylen": 32.0,
+      "zlen": 45.3
+    },
+    "SLOT6_BOLT1_M3X16_ENVELOPE": {
+      "xmin": 274.45,
+      "xmax": 279.95,
+      "ymin": 447.25,
+      "ymax": 452.75,
+      "zmin": 96.5,
+      "zmax": 115.5,
+      "xlen": 5.5,
+      "ylen": 5.5,
+      "zlen": 19.0
+    },
+    "SLOT6_NUT1_M3_ENVELOPE": {
+      "xmin": 274.0,
+      "xmax": 280.4,
+      "ymin": 446.8,
+      "ymax": 453.2,
+      "zmin": 100.5,
+      "zmax": 103.5,
+      "xlen": 6.4,
+      "ylen": 6.4,
+      "zlen": 3.0
+    },
+    "SLOT6_BOLT2_M3X16_ENVELOPE": {
+      "xmin": 320.05,
+      "xmax": 325.55,
+      "ymin": 447.25,
+      "ymax": 452.75,
+      "zmin": 96.5,
+      "zmax": 115.5,
+      "xlen": 5.5,
+      "ylen": 5.5,
+      "zlen": 19.0
+    },
+    "SLOT6_NUT2_M3_ENVELOPE": {
+      "xmin": 319.6,
+      "xmax": 326.0,
+      "ymin": 446.8,
+      "ymax": 453.2,
+      "zmin": 100.5,
+      "zmax": 103.5,
+      "xlen": 6.4,
+      "ylen": 6.4,
+      "zlen": 3.0
+    },
+    "DEDICATED_FAN_SLOT6_FULL_KEEP_OUT": {
+      "xmin": 192.0,
+      "xmax": 312.0,
+      "ymin": 524.0,
+      "ymax": 549.0,
+      "zmin": 19.05,
+      "zmax": 139.05,
+      "xlen": 120.0,
+      "ylen": 25.0,
+      "zlen": 120.0
+    },
+    "SLOT4_GPU_HALF_PROTOTYPE": {
+      "xmin": 332.28,
+      "xmax": 380.0,
+      "ymin": 283.4,
+      "ymax": 460.0,
+      "zmin": 43.0,
+      "zmax": 151.0,
+      "xlen": 47.72,
+      "ylen": 176.6,
+      "zlen": 108.0
+    },
+    "SLOT4_FAN_HALF_PROTOTYPE": {
+      "xmin": 312.0,
+      "xmax": 432.0,
+      "ymin": 450.0,
+      "ymax": 524.0,
+      "zmin": 19.05,
+      "zmax": 151.0,
+      "xlen": 120.0,
+      "ylen": 74.0,
+      "zlen": 131.95
+    },
+    "SLOT4_COLLAR_LOWER_PROTOTYPE": {
+      "xmin": 336.7,
+      "xmax": 393.3,
+      "ymin": 434.0,
+      "ymax": 466.0,
+      "zmin": 62.2,
+      "zmax": 107.5,
+      "xlen": 56.6,
+      "ylen": 32.0,
+      "zlen": 45.3
+    },
+    "SLOT4_COLLAR_UPPER_PROTOTYPE": {
+      "xmin": 336.7,
+      "xmax": 393.3,
+      "ymin": 434.0,
+      "ymax": 466.0,
+      "zmin": 108.5,
+      "zmax": 153.8,
+      "xlen": 56.6,
+      "ylen": 32.0,
+      "zlen": 45.3
+    },
+    "SLOT4_BOLT1_M3X16_ENVELOPE": {
+      "xmin": 339.45,
+      "xmax": 344.95,
+      "ymin": 447.25,
+      "ymax": 452.75,
+      "zmin": 96.5,
+      "zmax": 115.5,
+      "xlen": 5.5,
+      "ylen": 5.5,
+      "zlen": 19.0
+    },
+    "SLOT4_NUT1_M3_ENVELOPE": {
+      "xmin": 339.0,
+      "xmax": 345.4,
+      "ymin": 446.8,
+      "ymax": 453.2,
+      "zmin": 100.5,
+      "zmax": 103.5,
+      "xlen": 6.4,
+      "ylen": 6.4,
+      "zlen": 3.0
+    },
+    "SLOT4_BOLT2_M3X16_ENVELOPE": {
+      "xmin": 385.05,
+      "xmax": 390.55,
+      "ymin": 447.25,
+      "ymax": 452.75,
+      "zmin": 96.5,
+      "zmax": 115.5,
+      "xlen": 5.5,
+      "ylen": 5.5,
+      "zlen": 19.0
+    },
+    "SLOT4_NUT2_M3_ENVELOPE": {
+      "xmin": 384.6,
+      "xmax": 391.0,
+      "ymin": 446.8,
+      "ymax": 453.2,
+      "zmin": 100.5,
+      "zmax": 103.5,
+      "xlen": 6.4,
+      "ylen": 6.4,
+      "zlen": 3.0
+    },
+    "DEDICATED_FAN_SLOT4_FULL_KEEP_OUT": {
+      "xmin": 312.0,
+      "xmax": 432.0,
+      "ymin": 524.0,
+      "ymax": 549.0,
+      "zmin": 19.05,
+      "zmax": 139.05,
+      "xlen": 120.0,
+      "ylen": 25.0,
+      "zlen": 120.0
+    }
+  },
+  "configuration": {
+    "revision": "X10DRG-Q-RTX8000-R02-FIT-PROTOTYPES",
+    "units": "mm",
+    "production_ready": false,
+    "coordinate_system": "+X left, +Y front, +Z up; origin rear-right-bottom",
+    "chassis": {
+      "width": 444.5,
+      "height": 260.35,
+      "wall": 5.0,
+      "floor": 19.05,
+      "lid_allowance": 5.0,
+      "variants": {
+        "compact": 584.2,
+        "extended": 634.2
+      },
+      "status": "Original width/height retained; extended depth is a proposal. No rack-ear load claim."
+    },
+    "board": {
+      "width": 386.1,
+      "depth": 335.3,
+      "thickness": 1.57,
+      "origin_xy": [
+        25.0,
+        20.918
+      ],
+      "standoff_height": 6.35,
+      "mounting_holes": null,
+      "mounting_hole_count": 14,
+      "dimension_evidence": {
+        "product_page_mm": [
+          386.1,
+          335.3
+        ],
+        "manual_alternate_width_mm": 384.04,
+        "policy": "Use larger published width for the concept envelope; resolve physical dimensions before mounting geometry.",
+        "source": "https://www.supermicro.com/en/products/motherboard/X10DRG-Q"
+      },
+      "datum_status": "PROVISIONAL: origin is a layout choice. No measured mounting-hole, I/O-shield or slot-to-outline datums.",
+      "front_component_reservation": {
+        "x": 310.0,
+        "y": 300.0,
+        "width": 65.0,
+        "depth": 50.0,
+        "height_above_pcb": 30.0,
+        "status": "PROVISIONAL PCH/front-component reservation; replace with measured components"
+      },
+      "purchase_status": "NOT ORDERED; no physical board measurements available"
+    },
+    "gpus": {
+      "slot_pitch": 20.32,
+      "card_pitch": 40.64,
+      "first_slot_plane_x": 252.0,
+      "rear_y": 16.2,
+      "body_bottom_z": 40.0,
+      "body_length": 266.7,
+      "body_height": 111.76,
+      "body_width_reservation": 40.64,
+      "backplate_offset": 3.0,
+      "slots": [
+        8,
+        6,
+        4,
+        2
+      ],
+      "cooling": [
+        "passive",
+        "passive",
+        "passive",
+        "blower"
+      ],
+      "cpu_owners": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "status": "40.64 pitch is nominal dual-slot spacing. First plane, body-to-slot offsets and all GPU envelopes are provisional; different active/passive housings require measurement.",
+      "nvlink": {
+        "pairs": [
+          [
+            8,
+            6
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "y_min": 35.0,
+        "y_max": 220.0,
+        "extra_x": 10.0,
+        "height_above_gpu": 25.0,
+        "status": "Oversized planning reservations, NOT measured bridge solids or proof of bridge fit"
+      },
+      "blower_air_reservation": {
+        "y_min": 170.0,
+        "y_max": 282.9,
+        "z_min": 50.0,
+        "z_max": 150.0,
+        "status": "PROVISIONAL side intake/service region; actual blower inlet must be measured"
+      },
+      "power_connector_keepouts": null
+    },
+    "cpu_coolers": {
+      "centers_xy": [
+        [
+          160.0,
+          267.0
+        ],
+        [
+          105.0,
+          135.0
+        ]
+      ],
+      "envelope_xyz": [
+        100.0,
+        100.0,
+        120.0
+      ],
+      "status": "PROVISIONAL cooler envelopes and approximate socket centers; target requires narrow-ILM LGA2011-3 coolers, model not selected"
+    },
+    "psus": {
+      "count": 2,
+      "x": 38.1,
+      "y": 370.0,
+      "body_depth_x": 160,
+      "face_width_y": 150.0,
+      "height": 86.0,
+      "bottom_z": [
+        19.05,
+        164.35
+      ],
+      "cable_clearance_x": 30.0,
+      "screw_holes": null,
+      "status": "NO PSU SELECTED. Default160mm body plus30mm cable reservation; profile140/150/160/180/200mm bodies and30/50mm cable zones. No electrical load-sharing claim."
+    },
+    "fans": {
+      "size": 120.0,
+      "thickness": 25.0,
+      "front_centers_x": [
+        139.5,
+        259.5,
+        379.5
+      ],
+      "duct_centers_x": [
+        252.0,
+        372.0
+      ],
+      "centers_z": [
+        79.05,
+        199.05
+      ],
+      "front_rear_offset_from_depth": 30.0,
+      "duct_rear_offset_from_depth": 60.2,
+      "status": "R02 three dedicated120mm fans, one per passive GPU. L bank: slot8 upper-left, slot6 lower-left, slot4 lower-right. Equal fan face area is not equal airflow."
+    },
+    "ducts": {
+      "wall": 2.0,
+      "gpu_end_gap": 0.5,
+      "outlet_bottom_z": 43.0,
+      "outlet_top_z": 145.0,
+      "rise_end_y": 310.0,
+      "middle_bottom_z": 80.0,
+      "middle_top_z": 165.0,
+      "front_transition_length": 49.0,
+      "support_mounts": null,
+      "status": "Three closed concept shells with open ends. Mouths are rectangular reservations, not final RTX 8000 interfaces. No print-overhang, thermal or physical-fit validation."
+    },
+    "printer": {
+      "model": "Bambu Lab P1S",
+      "user_confirmed": true,
+      "bed_xyz": [
+        220,
+        220,
+        240
+      ],
+      "nominal_machine_xyz": [
+        256,
+        256,
+        256
+      ],
+      "profile_print_height": 250,
+      "brim_mm": 5,
+      "cutter_exclusion_xy": [
+        0,
+        0,
+        18,
+        28
+      ],
+      "status": "Conservative body cap220x220x240; actual centered placement plus5mm brim and cutter exclusion checked. Slicer must still verify supports, purge/flow-calibration regions and toolpaths."
+    },
+    "required_measurements": [
+      "Resolve motherboard width disagreement and measure all 14 mounting holes relative to a defined PCB datum",
+      "Measure rear I/O shield plane and all four GPU slot planes relative to PCB edges",
+      "Measure each passive and blower GPU housing, bracket tabs/flanges and power-connector plug/bend envelopes",
+      "Measure both existing NVLink bridges and their installed height and position",
+      "Select narrow-ILM LGA2011-3 CPU coolers and record full envelope, airflow and fastener access",
+      "Select both PSUs; record depth, modular-connector positions and cable bend/plug envelopes",
+      "Measure motherboard DIMMs, VRMs, PCH and auxiliary-power plugs beneath the proposed ducts",
+      "Design duct supports forward of PCB; original Y350 floor anchors are covered by this board layout",
+      "Resolve original rear-bracket clearance and PSU screw-seat issues through physical fit checks",
+      "Print and measure split-duct socket/spigot fit, collar closure and M3 fastener stack; axial retention is friction only",
+      "Select fan models and measure actual heatsink pressure drop, per-card airflow and GPU temperatures; equal area is not equal airflow",
+      "Verify Bambu Studio plate placement, brim, supports, travel/cutter and flow-calibration regions before printing"
+    ],
+    "r02": {
+      "route_middle_centers_x": [
+        269.32,
+        300,
+        365
+      ],
+      "route_middle_bottom_z": [
+        165,
+        65,
+        65
+      ],
+      "route_middle_width": 30,
+      "route_middle_height": 86,
+      "mouth_side_inset": 2,
+      "clearance_y": 299,
+      "clearance_bottom_z": 65,
+      "clearance_top_z": 151,
+      "middle_start_y": 400,
+      "joint_y": 450,
+      "spigot_length": 10,
+      "spigot_entry_taper": 6,
+      "spigot_wall": 1.6,
+      "radial_clearance": 0.3,
+      "collar_clearance": 0.3,
+      "collar_wall": 2.5,
+      "collar_length": 32,
+      "collar_split_gap": 1,
+      "ear_thickness": 4,
+      "bolt_clearance_diameter": 3.4,
+      "bolt_length": 16,
+      "fan_routes": {
+        "8": [
+          252,
+          199.05
+        ],
+        "6": [
+          252,
+          79.05
+        ],
+        "4": [
+          372,
+          79.05
+        ]
+      },
+      "psu_body_depth_profiles": [
+        140,
+        150,
+        160,
+        180,
+        200
+      ],
+      "psu_cable_profiles": [
+        30,
+        50
+      ]
+    }
+  }
+}

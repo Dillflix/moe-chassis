@@ -1,0 +1,102 @@
+{
+  "revision": "X10DRG-Q-RTX8000-R01-CONCEPT",
+  "units": "mm",
+  "production_ready": false,
+  "coordinate_system": "+X left, +Y front, +Z up; origin rear-right-bottom",
+  "chassis": {
+    "width": 444.5,
+    "height": 260.35,
+    "wall": 5.0,
+    "floor": 19.05,
+    "lid_allowance": 5.0,
+    "variants": {"compact": 584.2, "extended": 634.2},
+    "status": "Original width/height retained; extended depth is a proposal. No rack-ear load claim."
+  },
+  "board": {
+    "width": 386.1,
+    "depth": 335.3,
+    "thickness": 1.57,
+    "origin_xy": [25.0, 20.918],
+    "standoff_height": 6.35,
+    "mounting_holes": null,
+    "mounting_hole_count": 14,
+    "dimension_evidence": {
+      "product_page_mm": [386.1, 335.3],
+      "manual_alternate_width_mm": 384.04,
+      "policy": "Use larger published width for the concept envelope; resolve physical dimensions before mounting geometry.",
+      "source": "https://www.supermicro.com/en/products/motherboard/X10DRG-Q"
+    },
+    "datum_status": "PROVISIONAL: origin is a layout choice. No measured mounting-hole, I/O-shield or slot-to-outline datums.",
+    "front_component_reservation": {"x": 310.0, "y": 300.0, "width": 65.0, "depth": 50.0, "height_above_pcb": 30.0, "status": "PROVISIONAL PCH/front-component reservation; replace with measured components"}
+  },
+  "gpus": {
+    "slot_pitch": 20.32,
+    "card_pitch": 40.64,
+    "first_slot_plane_x": 252.0,
+    "rear_y": 16.2,
+    "body_bottom_z": 40.0,
+    "body_length": 266.7,
+    "body_height": 111.76,
+    "body_width_reservation": 40.64,
+    "backplate_offset": 3.0,
+    "slots": [8, 6, 4, 2],
+    "cooling": ["passive", "passive", "passive", "blower"],
+    "cpu_owners": [2, 2, 1, 1],
+    "status": "40.64 pitch is nominal dual-slot spacing. First plane, body-to-slot offsets and all GPU envelopes are provisional; different active/passive housings require measurement.",
+    "nvlink": {"pairs": [[8, 6], [4, 2]], "y_min": 35.0, "y_max": 220.0, "extra_x": 10.0, "height_above_gpu": 25.0, "status": "Oversized planning reservations, NOT measured bridge solids or proof of bridge fit"},
+    "blower_air_reservation": {"y_min": 170.0, "y_max": 282.9, "z_min": 50.0, "z_max": 150.0, "status": "PROVISIONAL side intake/service region; actual blower inlet must be measured"},
+    "power_connector_keepouts": null
+  },
+  "cpu_coolers": {
+    "centers_xy": [[160.0, 267.0], [105.0, 135.0]],
+    "envelope_xyz": [100.0, 100.0, 120.0],
+    "status": "PROVISIONAL cooler envelopes and approximate socket centers; target requires narrow-ILM LGA2011-3 coolers, model not selected"
+  },
+  "psus": {
+    "count": 2,
+    "x": 38.1,
+    "y": 370.0,
+    "body_depth_x": 150.0,
+    "face_width_y": 150.0,
+    "height": 86.0,
+    "bottom_z": [19.05, 164.35],
+    "cable_clearance_x": 30.0,
+    "screw_holes": null,
+    "status": "PROVISIONAL dual ATX envelopes; two 850W units are candidates, not selected parts. No electrical load-sharing claim. Cable keepout extends inward (+X)."
+  },
+  "fans": {
+    "size": 120.0,
+    "thickness": 25.0,
+    "front_centers_x": [139.5, 259.5, 379.5],
+    "duct_centers_x": [252.0, 372.0],
+    "centers_z": [79.05, 199.05],
+    "front_rear_offset_from_depth": 30.0,
+    "duct_rear_offset_from_depth": 60.2,
+    "status": "Envelope placeholders; fan/rotor/cable hardware unspecified. 4 duct fans feed THREE passages; blower lane is not an open fourth outlet."
+  },
+  "ducts": {
+    "wall": 2.0,
+    "gpu_end_gap": 0.5,
+    "outlet_bottom_z": 43.0,
+    "outlet_top_z": 145.0,
+    "rise_end_y": 310.0,
+    "middle_bottom_z": 80.0,
+    "middle_top_z": 165.0,
+    "front_transition_length": 49.0,
+    "support_mounts": null,
+    "status": "Three closed concept shells with open ends. Mouths are rectangular reservations, not final RTX 8000 interfaces. No print-overhang, thermal or physical-fit validation."
+  },
+  "printer": {"bed_xyz": [256.0, 256.0, 256.0], "status": "PROVISIONAL placeholder, not a user-confirmed printer; only concept-duct bounds are checked"},
+  "required_measurements": [
+    "Resolve motherboard width disagreement and measure all 14 mounting holes relative to a defined PCB datum",
+    "Measure rear I/O shield plane and all four GPU slot planes relative to PCB edges",
+    "Measure each passive and blower GPU housing, bracket tabs/flanges and power-connector plug/bend envelopes",
+    "Measure both existing NVLink bridges and their installed height and position",
+    "Select narrow-ILM LGA2011-3 CPU coolers and record full envelope, airflow and fastener access",
+    "Select both PSUs; record depth, modular-connector positions and cable bend/plug envelopes",
+    "Measure motherboard DIMMs, VRMs, PCH and auxiliary-power plugs beneath the proposed ducts",
+    "Confirm printer build volume and materials",
+    "Design duct supports forward of PCB; original Y350 floor anchors are covered by this board layout",
+    "Resolve original rear-bracket clearance and PSU screw-seat issues through physical fit checks"
+  ]
+}

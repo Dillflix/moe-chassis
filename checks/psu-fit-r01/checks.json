@@ -1,0 +1,52 @@
+{
+  "revision": "R01",
+  "status": "fit_samples_not_mounting_hardware",
+  "units": "mm",
+  "physical_fit_verified": false,
+  "source_issue": "https://github.com/PraxisOG/moe-chassis/issues/2",
+  "note": "4 mm clearance hole and 9 mm recess are prototype choices. Confirm actual screw head, engagement and manufacturer penetration limit. These samples do not validate a load-bearing PSU mount.",
+  "parts": {
+    "psu-seat-r01-2mm": {
+      "valid_single_solid": true,
+      "land_mm": 2.0,
+      "wall_mm": 5,
+      "through_hole_mm": 4,
+      "head_recess_mm": 9,
+      "solid_volume_mm3": 4284.015505065703,
+      "mesh": {
+        "triangles": 1280,
+        "closed": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "volume_mm3": 4284.072424597332,
+        "on_bed": true,
+        "bounds_mm": [
+          30.0,
+          30.0,
+          5.0
+        ]
+      }
+    },
+    "psu-seat-r01-5mm": {
+      "valid_single_solid": true,
+      "land_mm": 5.0,
+      "wall_mm": 5,
+      "through_hole_mm": 4,
+      "head_recess_mm": null,
+      "solid_volume_mm3": 4437.168146928205,
+      "mesh": {
+        "triangles": 648,
+        "closed": true,
+        "consistent_winding": true,
+        "positive_volume": true,
+        "volume_mm3": 4437.184709847868,
+        "on_bed": true,
+        "bounds_mm": [
+          30.0,
+          30.0,
+          5.0
+        ]
+      }
+    }
+  }
+}

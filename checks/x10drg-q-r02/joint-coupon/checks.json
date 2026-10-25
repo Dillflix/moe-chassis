@@ -1,0 +1,248 @@
+{
+  "revision": "X10DRG-Q-RTX8000-R02-FIT-PROTOTYPES",
+  "type": "joint_fit_coupon",
+  "production_ready": false,
+  "invalid_solids": [],
+  "collisions": [],
+  "joint": {
+    "radial_clearance_mm": 0.3,
+    "split_gap_mm": 1,
+    "bolts": "2 x M3x16 provisional; actual head/nut dimensions and engagement require fit check",
+    "bearing_stack_mm": 9,
+    "retention": "FRICTION ONLY; axial pull test required; not a structural support",
+    "spigot_length_mm": 10,
+    "spigot_wall_mm": 1.6,
+    "spigot_radial_clearance_mm": 0.3,
+    "male_female_intersection_mm3": 0.0,
+    "male_outer_wh_mm": [
+      25.4,
+      81.4
+    ],
+    "receiver_inner_wh_mm": [
+      26.0,
+      82.0
+    ],
+    "spigot_y_section_airway_wh_mm": [
+      22.2,
+      78.2
+    ],
+    "spigot_y_section_airway_area_mm2": 1736.04,
+    "middle_y_section_airway_area_mm2": 2132.0,
+    "joint_area_reduction_fraction": 0.18572232645403375,
+    "nominal_fan_face_area_mm2": 14400.0,
+    "duct_fan_opening_area_mm2": 13456.0,
+    "area_scope": "Areas are sections perpendicular to chassis Y, not a proven minimum flow-normal airway. Inclined passages, bends, contractions and real heatsinks require pressure/flow testing.",
+    "route_rise_angle_degrees": 0.0,
+    "airflow_direction": "Front fan -> FAN_HALF -> joint -> GPU_HALF -> GPU; pressure loss is untested"
+  },
+  "print_prototypes": [
+    {
+      "name": "COUPON_GPU_HALF_PROTOTYPE",
+      "step": "parts/COUPON_GPU_HALF_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/COUPON_GPU_HALF_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 32,
+        "triangles": 64,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 30.0,
+          "ymin": 0.0,
+          "ymax": 86.0,
+          "zmin": 0.0,
+          "zmax": 30.0,
+          "xlen": 30.0,
+          "ylen": 86.0,
+          "zlen": 30.0
+        },
+        "volume_mm3": 11919.04
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          113.0,
+          85.0
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          108.0,
+          80.0,
+          148.0,
+          176.0
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "COUPON_FAN_HALF_PROTOTYPE",
+      "step": "parts/COUPON_FAN_HALF_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/COUPON_FAN_HALF_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 16,
+        "triangles": 32,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 30.0,
+          "ymin": 0.0,
+          "ymax": 86.0,
+          "zmin": 0.0,
+          "zmax": 25.0,
+          "xlen": 30.0,
+          "ylen": 86.0,
+          "zlen": 25.0
+        },
+        "volume_mm3": 11200.0
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          113.0,
+          85.0
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          108.0,
+          80.0,
+          148.0,
+          176.0
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "COUPON_COLLAR_LOWER_PROTOTYPE",
+      "step": "parts/COUPON_COLLAR_LOWER_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/COUPON_COLLAR_LOWER_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 452,
+        "triangles": 908,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 56.6,
+          "ymin": 0.0,
+          "ymax": 45.3,
+          "zmin": 0.0,
+          "zmax": 32.0,
+          "xlen": 56.6,
+          "ylen": 45.3,
+          "zlen": 32.0
+        },
+        "volume_mm3": 10631.409
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          99.7,
+          105.35
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          94.7,
+          100.35,
+          161.3,
+          155.65
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "COUPON_COLLAR_UPPER_PROTOTYPE",
+      "step": "parts/COUPON_COLLAR_UPPER_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/COUPON_COLLAR_UPPER_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 452,
+        "triangles": 908,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 56.6,
+          "ymin": 0.0,
+          "ymax": 45.3,
+          "zmin": 0.0,
+          "zmax": 32.0,
+          "xlen": 56.6,
+          "ylen": 45.3,
+          "zlen": 32.0
+        },
+        "volume_mm3": 10631.409
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          99.7,
+          105.35
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          94.7,
+          100.35,
+          161.3,
+          155.65
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    }
+  ],
+  "all_meshes_pass": true,
+  "all_placement_envelopes_pass": true,
+  "physical_fit_verified": false,
+  "acceptance": "Check slide fit, closure before ear contact, M3 head/nut access, cracking, axial pull retention and seal leakage. This does not validate full ducts or GPU fit."
+}

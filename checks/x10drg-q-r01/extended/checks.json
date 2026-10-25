@@ -1,0 +1,147 @@
+{
+  "revision": "X10DRG-Q-RTX8000-R01-CONCEPT",
+  "variant": "extended",
+  "production_ready": false,
+  "modeled_geometry_pass": true,
+  "invalid_solids": [],
+  "outside_chassis": [],
+  "collisions": [],
+  "concept_print_checks": [
+    {
+      "file": "concept-only/DUCT_SLOT8_CONCEPT_NOT_FIT_VALIDATED.stl",
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 97.64,
+        "ymin": 0.0,
+        "ymax": 240.0,
+        "zmin": 0.0,
+        "zmax": 290.60001,
+        "xlen": 97.64,
+        "ylen": 240.0,
+        "zlen": 290.60001
+      },
+      "fits_provisional_printer": false,
+      "requires_segmentation_or_larger_printer": true,
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 36,
+        "triangles": 72,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 97.64,
+          "ymin": 0.0,
+          "ymax": 240.0,
+          "zmin": 0.0,
+          "zmax": 290.60001,
+          "xlen": 97.64,
+          "ylen": 240.0,
+          "zlen": 290.60001
+        },
+        "volume_mm3": 159386.014
+      },
+      "production_ready": false
+    },
+    {
+      "file": "concept-only/DUCT_SLOT6_CONCEPT_NOT_FIT_VALIDATED.stl",
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 78.28,
+        "ymin": 0.0,
+        "ymax": 240.0,
+        "zmin": 0.0,
+        "zmax": 290.60001,
+        "xlen": 78.28,
+        "ylen": 240.0,
+        "zlen": 290.60001
+      },
+      "fits_provisional_printer": false,
+      "requires_segmentation_or_larger_printer": true,
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 36,
+        "triangles": 72,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 78.28,
+          "ymin": 0.0,
+          "ymax": 240.0,
+          "zmin": 0.0,
+          "zmax": 290.60001,
+          "xlen": 78.28,
+          "ylen": 240.0,
+          "zlen": 290.60001
+        },
+        "volume_mm3": 159386.014
+      },
+      "production_ready": false
+    },
+    {
+      "file": "concept-only/DUCT_SLOT4_CONCEPT_NOT_FIT_VALIDATED.stl",
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 120.0,
+        "ymin": 0.0,
+        "ymax": 240.0,
+        "zmin": 0.0,
+        "zmax": 290.60001,
+        "xlen": 120.0,
+        "ylen": 240.0,
+        "zlen": 290.60001
+      },
+      "fits_provisional_printer": false,
+      "requires_segmentation_or_larger_printer": true,
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 40,
+        "triangles": 80,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 120.0,
+          "ymin": 0.0,
+          "ymax": 240.0,
+          "zmin": 0.0,
+          "zmax": 290.60001,
+          "xlen": 120.0,
+          "ylen": 240.0,
+          "zlen": 290.60001
+        },
+        "volume_mm3": 165266.011
+      },
+      "production_ready": false
+    }
+  ],
+  "physical_measurement_status": "BLOCKED: unmeasured interfaces",
+  "thermal_status": "NOT TESTED",
+  "print_overhang_status": "NOT CHECKED",
+  "structural_status": "NOT TESTED; enclosure shell is an envelope, not a printable supported chassis",
+  "rack_mount_status": "No ears/rails; shelf/support design outstanding",
+  "fan_collision_model": "Full rectangular fan volumes, including rotor space, not only hollow frames",
+  "flow_distribution_status": "UNRESOLVED: inlet areas are 1:1:2. This routing study does not balance airflow; dedicated fans or a common plenum remain alternatives.",
+  "required_measurements": [
+    "Resolve motherboard width disagreement and measure all 14 mounting holes relative to a defined PCB datum",
+    "Measure rear I/O shield plane and all four GPU slot planes relative to PCB edges",
+    "Measure each passive and blower GPU housing, bracket tabs/flanges and power-connector plug/bend envelopes",
+    "Measure both existing NVLink bridges and their installed height and position",
+    "Select narrow-ILM LGA2011-3 CPU coolers and record full envelope, airflow and fastener access",
+    "Select both PSUs; record depth, modular-connector positions and cable bend/plug envelopes",
+    "Measure motherboard DIMMs, VRMs, PCH and auxiliary-power plugs beneath the proposed ducts",
+    "Confirm printer build volume and materials",
+    "Design duct supports forward of PCB; original Y350 floor anchors are covered by this board layout",
+    "Resolve original rear-bracket clearance and PSU screw-seat issues through physical fit checks"
+  ]
+}

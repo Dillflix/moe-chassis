@@ -1,5 +1,46 @@
 # Revision and fit history
 
+## X10DRG-Q / RTX 8000 variant — R02, 25 October 2026
+
+The owner confirmed a Bambu P1S, no PSU selection and an unpurchased
+X10DRG-Q. R02 gives each passive card a dedicated 120mm fan and divides
+its duct into two fitted sections with a removable split collar. The upper
+route rises at approximately 44.7 degrees over the middle transition.
+All 12 duct/collar pieces per variant fit the configured P1S envelope with
+a 5mm brim reservation and the normal cutter exclusion.
+
+The 634.2mm candidate has no modeled component intersections; the 584.2mm
+layout retains three PSU/duct clashes. PSU body/cable-zone sensitivity is
+reported explicitly. A four-piece short joint sample is cropped from the
+actual mating solids for the first physical fit test. Its 0.3mm-per-side
+clearance and M3x16 friction collar still need print/fit/seal/pull testing.
+
+Source, STEP, actual CAD views, saved-mesh reports and 13 regression tests
+are supplied. Original upstream and R01 geometry remain unchanged. This
+is a fit-prototype milestone, not a full enclosure or thermal/structural
+release. See [R02 assembly and checks](x10drg-q-r02.md),
+[P1S constraints](p1s-printing.md) and [PSU/cable options](x10drg-q-psu-options.md).
+
+## X10DRG-Q / RTX 8000 variant — R01, 25 October 2026
+
+The Dillflix fork starts a separate parametric layout study for the X10DRG-Q,
+four RTX 8000 cards (three passive, one blower), two NVLink pairs and two ATX
+PSUs. This revision adds the design plan, measurement requirements, generator,
+actual CAD views and machine-readable geometry reports. Published upstream
+STEP solids and the original 34-part print set are unchanged.
+
+Two separate 30 × 30 × 5mm PSU screw-seat coupons compare a proposed 2mm
+local land with the original 5mm wall. STEP, regenerated on-bed STL, CAD
+views and mesh checks are provided; actual screw fit is pending.
+
+R01 is not a manufacturing release. The motherboard outline sources disagree
+by approximately 2mm along the rear edge; mounting-hole and absolute slot/I/O
+coordinates are not dimensioned in the available documentation. Provisional
+envelopes must not be used as drilling templates. Both upstream physical fit
+issues remain open. See the [variant plan](x10drg-q-plan.md).
+
+## Upstream baseline
+
 | Design step | What is included | Status |
 |---|---|---|
 | Step 15 / 16 chassis | Four quadrants, seven connectors, five rod channels, lid mounts; Step 16 front-left adds six floor inserts | Printed baseline. Rear GPU top-flange and PSU screw-seat bugs remain open. |

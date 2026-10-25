@@ -1,6 +1,59 @@
+# MOE — X10DRG-Q / RTX 8000 variant
+
+This fork develops a shelf-supported chassis for a **Supermicro X10DRG-Q,
+two Xeon E5-2630L v4 CPUs, eight 32GB ECC RDIMMs, three passive Quadro RTX
+8000s and one blower RTX 8000**, retaining two NVLink pairs and provision
+for two ATX power supplies.
+
+**R02 adds segmented duct fit prototypes for the confirmed Bambu P1S.**
+The motherboard has not been ordered and no PSUs are selected. This is a
+layout and interface study; a complete chassis is not ready to print.
+
+[Current R02 design and joint test](docs/x10drg-q-r02.md) ·
+[Design plan](docs/x10drg-q-plan.md) ·
+[P1S printing](docs/p1s-printing.md) ·
+[PSU shortlist and cable budget](docs/x10drg-q-psu-options.md) ·
+[Measurements needed](docs/x10drg-q-measurements.md)
+
+![X10DRG-Q R02 concept generated from CAD](renders/x10drg-q-r02/extended/overview.png)
+
+| R02 layout | Modeled clearance result | Confirmed P1S placement envelope |
+|---|---|---|
+| Original 584.2mm depth | Three PSU body/cable-zone clashes with ducts | All 12 duct/collar pieces fit with the configured brim allowance |
+| Extended 634.2mm depth | No collisions among the modeled envelopes | All 12 pieces fit, including the normal cutter exclusion |
+
+The extended option remains the working candidate. Three dedicated 120mm
+fans replace R01's unequal 1:1:2 inlet allocation. The ducts now have
+removable spigot/socket joints and external split collars. Equal fan area
+is not evidence of equal airflow or adequate cooling. A small four-piece
+joint sample is provided for fitting before buying the board.
+
+Generate the current prototypes independently of the preserved upstream files:
+
+```bash
+python -m pip install -r requirements-cad.txt
+python tools/build_x10drg_q_r02.py --output build/x10drg-q-r02
+```
+
+Motherboard mounting holes, absolute PCIe/I/O datums, actual GPU duct mouths,
+bridge dimensions, CPU coolers and power-cable exits still require measurement.
+The full enclosure, structural supports and fan mounts remain future work.
+
+The [R01 layout comparison](checks/x10drg-q-r01/comparison.json),
+[R01 extended STEP](cad/x10drg-q-r01/extended/layout.step) and
+[PSU screw-seat samples](docs/psu-fit-samples.md) remain available. R01 keeps
+its original provisional printer check and unsplit cooling concept for traceability.
+
+The design uses the upstream coordinate convention: **+X left, +Y front,
++Z up; floor Z19.05mm**. The original Step 16–22 files and their known fit
+issues are preserved below. Their production STL exporter continues to
+describe the original ASUS/V620 build, not this variant.
+
+---
+
 <div align="center">
 
-# MOE
+# Upstream MOE baseline
 ### A printed 6U home for four Radeon Pro V620s
 
 **Four chassis sections · Dual 1000 W PSUs · Ducted GPU cooling · A removable lid**

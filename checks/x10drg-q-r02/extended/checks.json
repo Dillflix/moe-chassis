@@ -1,0 +1,963 @@
+{
+  "revision": "X10DRG-Q-RTX8000-R02-FIT-PROTOTYPES",
+  "variant": "extended",
+  "production_ready": false,
+  "modeled_geometry_pass": true,
+  "invalid_solids": [],
+  "collisions": [],
+  "outside_chassis": [],
+  "fan_collision_model": "Full rectangular fan keepouts including rotor volume; cutaway frames shown only in renders",
+  "print_prototypes": [
+    {
+      "name": "SLOT8_GPU_HALF_PROTOTYPE",
+      "step": "parts/SLOT8_GPU_HALF_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT8_GPU_HALF_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 48,
+        "triangles": 96,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 36.64,
+          "ymin": 0.0,
+          "ymax": 208.0,
+          "zmin": 0.0,
+          "zmax": 176.60001,
+          "xlen": 36.64,
+          "ylen": 208.0,
+          "zlen": 176.60001
+        },
+        "volume_mm3": 79850.658
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          109.68,
+          24.0
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          104.68,
+          19.0,
+          151.32,
+          237.0
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT8_FAN_HALF_PROTOTYPE",
+      "step": "parts/SLOT8_FAN_HALF_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT8_FAN_HALF_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 40,
+        "triangles": 80,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 120.0,
+          "ymin": 0.0,
+          "ymax": 120.0,
+          "zmin": 0.0,
+          "zmax": 124.0,
+          "xlen": 120.0,
+          "ylen": 120.0,
+          "zlen": 124.0
+        },
+        "volume_mm3": 67703.999
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          68.0,
+          68.0
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          63.0,
+          63.0,
+          193.0,
+          193.0
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT8_COLLAR_LOWER_PROTOTYPE",
+      "step": "parts/SLOT8_COLLAR_LOWER_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT8_COLLAR_LOWER_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 452,
+        "triangles": 908,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": -0.0,
+          "xmax": 56.6,
+          "ymin": 0.0,
+          "ymax": 45.3,
+          "zmin": 0.0,
+          "zmax": 32.0,
+          "xlen": 56.6,
+          "ylen": 45.3,
+          "zlen": 32.0
+        },
+        "volume_mm3": 10631.409
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          99.7,
+          105.35
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          94.7,
+          100.35,
+          161.3,
+          155.65
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT8_COLLAR_UPPER_PROTOTYPE",
+      "step": "parts/SLOT8_COLLAR_UPPER_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT8_COLLAR_UPPER_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 452,
+        "triangles": 908,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": -0.0,
+          "xmax": 56.6,
+          "ymin": 0.0,
+          "ymax": 45.3,
+          "zmin": 0.0,
+          "zmax": 32.0,
+          "xlen": 56.6,
+          "ylen": 45.3,
+          "zlen": 32.0
+        },
+        "volume_mm3": 10631.409
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          99.7,
+          105.35
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          94.7,
+          100.35,
+          161.3,
+          155.65
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT6_GPU_HALF_PROTOTYPE",
+      "step": "parts/SLOT6_GPU_HALF_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT6_GPU_HALF_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 48,
+        "triangles": 96,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 43.28,
+          "ymin": 0.0,
+          "ymax": 108.0,
+          "zmin": 0.0,
+          "zmax": 176.60001,
+          "xlen": 43.28,
+          "ylen": 108.0,
+          "zlen": 176.60001
+        },
+        "volume_mm3": 79850.662
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          106.36,
+          74.0
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          101.36,
+          69.0,
+          154.64,
+          187.0
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT6_FAN_HALF_PROTOTYPE",
+      "step": "parts/SLOT6_FAN_HALF_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT6_FAN_HALF_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 38,
+        "triangles": 76,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 123.0,
+          "ymin": 0.0,
+          "ymax": 131.95,
+          "zmin": 0.0,
+          "zmax": 124.0,
+          "xlen": 123.0,
+          "ylen": 131.95,
+          "zlen": 124.0
+        },
+        "volume_mm3": 67703.995
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          66.5,
+          62.025000000000006
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          61.5,
+          57.025000000000006,
+          194.5,
+          198.975
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT6_COLLAR_LOWER_PROTOTYPE",
+      "step": "parts/SLOT6_COLLAR_LOWER_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT6_COLLAR_LOWER_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 452,
+        "triangles": 908,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 56.6,
+          "ymin": 0.0,
+          "ymax": 45.3,
+          "zmin": 0.0,
+          "zmax": 32.0,
+          "xlen": 56.6,
+          "ylen": 45.3,
+          "zlen": 32.0
+        },
+        "volume_mm3": 10631.409
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          99.7,
+          105.35
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          94.7,
+          100.35,
+          161.3,
+          155.65
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT6_COLLAR_UPPER_PROTOTYPE",
+      "step": "parts/SLOT6_COLLAR_UPPER_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT6_COLLAR_UPPER_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 452,
+        "triangles": 908,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 56.6,
+          "ymin": 0.0,
+          "ymax": 45.3,
+          "zmin": 0.0,
+          "zmax": 32.0,
+          "xlen": 56.6,
+          "ylen": 45.3,
+          "zlen": 32.0
+        },
+        "volume_mm3": 10631.409
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          99.7,
+          105.35
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          94.7,
+          100.35,
+          161.3,
+          155.65
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT4_GPU_HALF_PROTOTYPE",
+      "step": "parts/SLOT4_GPU_HALF_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT4_GPU_HALF_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 48,
+        "triangles": 96,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 47.72,
+          "ymin": 0.0,
+          "ymax": 108.0,
+          "zmin": 0.0,
+          "zmax": 176.60001,
+          "xlen": 47.72,
+          "ylen": 108.0,
+          "zlen": 176.60001
+        },
+        "volume_mm3": 79850.658
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          104.14,
+          74.0
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          99.14,
+          69.0,
+          156.86,
+          187.0
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT4_FAN_HALF_PROTOTYPE",
+      "step": "parts/SLOT4_FAN_HALF_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT4_FAN_HALF_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 38,
+        "triangles": 76,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 120.0,
+          "ymin": 0.0,
+          "ymax": 131.95,
+          "zmin": 0.0,
+          "zmax": 124.0,
+          "xlen": 120.0,
+          "ylen": 131.95,
+          "zlen": 124.0
+        },
+        "volume_mm3": 67703.992
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          68.0,
+          62.025000000000006
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          63.0,
+          57.025000000000006,
+          193.0,
+          198.975
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT4_COLLAR_LOWER_PROTOTYPE",
+      "step": "parts/SLOT4_COLLAR_LOWER_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT4_COLLAR_LOWER_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 452,
+        "triangles": 908,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 56.6,
+          "ymin": 0.0,
+          "ymax": 45.3,
+          "zmin": 0.0,
+          "zmax": 32.0,
+          "xlen": 56.6,
+          "ylen": 45.3,
+          "zlen": 32.0
+        },
+        "volume_mm3": 10631.409
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          99.7,
+          105.35
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          94.7,
+          100.35,
+          161.3,
+          155.65
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    },
+    {
+      "name": "SLOT4_COLLAR_UPPER_PROTOTYPE",
+      "step": "parts/SLOT4_COLLAR_UPPER_PROTOTYPE.step",
+      "stl": "stl-fit-prototypes/SLOT4_COLLAR_UPPER_PROTOTYPE.stl",
+      "mesh": {
+        "source": "saved_binary_stl",
+        "vertices": 452,
+        "triangles": 908,
+        "watertight_edges": true,
+        "consistent_winding": true,
+        "positive_signed_volume": true,
+        "on_bed": true,
+        "nonnegative_coordinates": true,
+        "bounds_mm": {
+          "xmin": 0.0,
+          "xmax": 56.6,
+          "ymin": 0.0,
+          "ymax": 45.3,
+          "zmin": 0.0,
+          "zmax": 32.0,
+          "xlen": 56.6,
+          "ylen": 45.3,
+          "zlen": 32.0
+        },
+        "volume_mm3": 10631.409
+      },
+      "placement": {
+        "fits_conservative_body_cap": true,
+        "body_cap_mm": [
+          220,
+          220,
+          240
+        ],
+        "brim_reserved_mm": 5,
+        "plate_body_translation_xy_mm": [
+          99.7,
+          105.35
+        ],
+        "body_plus_brim_rectangle_xy_mm": [
+          94.7,
+          100.35,
+          161.3,
+          155.65
+        ],
+        "intersects_cutter_exclusion": false,
+        "within_profile_volume": true,
+        "placement_pass": true,
+        "scope": "Bounding-envelope placement only; final slicer supports, toolpaths and purge/calibration zones remain unchecked"
+      },
+      "physical_fit_verified": false
+    }
+  ],
+  "all_meshes_pass": true,
+  "all_placement_envelopes_pass": true,
+  "joints": {
+    "8": {
+      "radial_clearance_mm": 0.3,
+      "split_gap_mm": 1,
+      "bolts": "2 x M3x16 provisional; actual head/nut dimensions and engagement require fit check",
+      "bearing_stack_mm": 9,
+      "retention": "FRICTION ONLY; axial pull test required; not a structural support",
+      "spigot_length_mm": 10,
+      "spigot_wall_mm": 1.6,
+      "spigot_radial_clearance_mm": 0.3,
+      "male_female_intersection_mm3": 0.0,
+      "male_outer_wh_mm": [
+        25.4,
+        81.4
+      ],
+      "receiver_inner_wh_mm": [
+        26.0,
+        82.0
+      ],
+      "spigot_y_section_airway_wh_mm": [
+        22.2,
+        78.2
+      ],
+      "spigot_y_section_airway_area_mm2": 1736.04,
+      "middle_y_section_airway_area_mm2": 2132.0,
+      "joint_area_reduction_fraction": 0.18572232645403375,
+      "nominal_fan_face_area_mm2": 14400.0,
+      "duct_fan_opening_area_mm2": 13456.0,
+      "area_scope": "Areas are sections perpendicular to chassis Y, not a proven minimum flow-normal airway. Inclined passages, bends, contractions and real heatsinks require pressure/flow testing.",
+      "route_rise_angle_degrees": 44.714948722416175,
+      "airflow_direction": "Front fan -> FAN_HALF -> joint -> GPU_HALF -> GPU; pressure loss is untested"
+    },
+    "6": {
+      "radial_clearance_mm": 0.3,
+      "split_gap_mm": 1,
+      "bolts": "2 x M3x16 provisional; actual head/nut dimensions and engagement require fit check",
+      "bearing_stack_mm": 9,
+      "retention": "FRICTION ONLY; axial pull test required; not a structural support",
+      "spigot_length_mm": 10,
+      "spigot_wall_mm": 1.6,
+      "spigot_radial_clearance_mm": 0.3,
+      "male_female_intersection_mm3": 0.0,
+      "male_outer_wh_mm": [
+        25.4,
+        81.4
+      ],
+      "receiver_inner_wh_mm": [
+        26.0,
+        82.0
+      ],
+      "spigot_y_section_airway_wh_mm": [
+        22.2,
+        78.2
+      ],
+      "spigot_y_section_airway_area_mm2": 1736.04,
+      "middle_y_section_airway_area_mm2": 2132.0,
+      "joint_area_reduction_fraction": 0.18572232645403375,
+      "nominal_fan_face_area_mm2": 14400.0,
+      "duct_fan_opening_area_mm2": 13456.0,
+      "area_scope": "Areas are sections perpendicular to chassis Y, not a proven minimum flow-normal airway. Inclined passages, bends, contractions and real heatsinks require pressure/flow testing.",
+      "route_rise_angle_degrees": 0.0,
+      "airflow_direction": "Front fan -> FAN_HALF -> joint -> GPU_HALF -> GPU; pressure loss is untested"
+    },
+    "4": {
+      "radial_clearance_mm": 0.3,
+      "split_gap_mm": 1,
+      "bolts": "2 x M3x16 provisional; actual head/nut dimensions and engagement require fit check",
+      "bearing_stack_mm": 9,
+      "retention": "FRICTION ONLY; axial pull test required; not a structural support",
+      "spigot_length_mm": 10,
+      "spigot_wall_mm": 1.6,
+      "spigot_radial_clearance_mm": 0.3,
+      "male_female_intersection_mm3": 0.0,
+      "male_outer_wh_mm": [
+        25.4,
+        81.4
+      ],
+      "receiver_inner_wh_mm": [
+        26.0,
+        82.0
+      ],
+      "spigot_y_section_airway_wh_mm": [
+        22.2,
+        78.2
+      ],
+      "spigot_y_section_airway_area_mm2": 1736.04,
+      "middle_y_section_airway_area_mm2": 2132.0,
+      "joint_area_reduction_fraction": 0.18572232645403375,
+      "nominal_fan_face_area_mm2": 14400.0,
+      "duct_fan_opening_area_mm2": 13456.0,
+      "area_scope": "Areas are sections perpendicular to chassis Y, not a proven minimum flow-normal airway. Inclined passages, bends, contractions and real heatsinks require pressure/flow testing.",
+      "route_rise_angle_degrees": 0.0,
+      "airflow_direction": "Front fan -> FAN_HALF -> joint -> GPU_HALF -> GPU; pressure loss is untested"
+    }
+  },
+  "flow_distribution_status": "One equal-area fan face per passive GPU. Paths, bends and actual heatsinks differ: equal airflow is NOT established.",
+  "psu_profiles": [
+    {
+      "body_depth_mm": 140,
+      "cable_zone_mm": 30,
+      "psu_collisions": [],
+      "psu_clearance_pass": true
+    },
+    {
+      "body_depth_mm": 140,
+      "cable_zone_mm": 50,
+      "psu_collisions": [],
+      "psu_clearance_pass": true
+    },
+    {
+      "body_depth_mm": 150,
+      "cable_zone_mm": 30,
+      "psu_collisions": [],
+      "psu_clearance_pass": true
+    },
+    {
+      "body_depth_mm": 150,
+      "cable_zone_mm": 50,
+      "psu_collisions": [],
+      "psu_clearance_pass": true
+    },
+    {
+      "body_depth_mm": 160,
+      "cable_zone_mm": 30,
+      "psu_collisions": [],
+      "psu_clearance_pass": true
+    },
+    {
+      "body_depth_mm": 160,
+      "cable_zone_mm": 50,
+      "psu_collisions": [
+        {
+          "a": "SLOT8_COLLAR_LOWER_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 303.9276
+        },
+        {
+          "a": "SLOT8_COLLAR_UPPER_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 303.9276
+        },
+        {
+          "a": "SLOT8_BOLT1_M3X16_ENVELOPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 173.2894
+        },
+        {
+          "a": "SLOT8_NUT1_M3_ENVELOPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 50.3744
+        }
+      ],
+      "psu_clearance_pass": false
+    },
+    {
+      "body_depth_mm": 180,
+      "cable_zone_mm": 30,
+      "psu_collisions": [
+        {
+          "a": "SLOT8_COLLAR_LOWER_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 303.9276
+        },
+        {
+          "a": "SLOT8_COLLAR_UPPER_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 303.9276
+        },
+        {
+          "a": "SLOT8_BOLT1_M3X16_ENVELOPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 173.2894
+        },
+        {
+          "a": "SLOT8_NUT1_M3_ENVELOPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 50.3744
+        }
+      ],
+      "psu_clearance_pass": false
+    },
+    {
+      "body_depth_mm": 180,
+      "cable_zone_mm": 50,
+      "psu_collisions": [
+        {
+          "a": "SLOT8_GPU_HALF_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 17078.1173
+        },
+        {
+          "a": "SLOT8_FAN_HALF_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 14711.41
+        },
+        {
+          "a": "SLOT8_COLLAR_LOWER_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 4077.3792
+        },
+        {
+          "a": "SLOT8_COLLAR_UPPER_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 3815.6832
+        },
+        {
+          "a": "SLOT8_BOLT1_M3X16_ENVELOPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 184.3722
+        },
+        {
+          "a": "SLOT8_NUT1_M3_ENVELOPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 69.2721
+        }
+      ],
+      "psu_clearance_pass": false
+    },
+    {
+      "body_depth_mm": 200,
+      "cable_zone_mm": 30,
+      "psu_collisions": [
+        {
+          "a": "SLOT8_GPU_HALF_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 17078.1173
+        },
+        {
+          "a": "SLOT8_FAN_HALF_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 14711.41
+        },
+        {
+          "a": "SLOT8_COLLAR_LOWER_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 4077.3792
+        },
+        {
+          "a": "SLOT8_COLLAR_UPPER_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 3815.6832
+        },
+        {
+          "a": "SLOT8_BOLT1_M3X16_ENVELOPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 184.3722
+        },
+        {
+          "a": "SLOT8_NUT1_M3_ENVELOPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 69.2721
+        }
+      ],
+      "psu_clearance_pass": false
+    },
+    {
+      "body_depth_mm": 200,
+      "cable_zone_mm": 50,
+      "psu_collisions": [
+        {
+          "a": "SLOT8_GPU_HALF_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 34799.3418
+        },
+        {
+          "a": "SLOT8_FAN_HALF_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 29995.0
+        },
+        {
+          "a": "SLOT8_COLLAR_LOWER_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 7761.4432
+        },
+        {
+          "a": "SLOT8_COLLAR_UPPER_PROTOTYPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 7210.7232
+        },
+        {
+          "a": "SLOT8_BOLT1_M3X16_ENVELOPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 184.3722
+        },
+        {
+          "a": "SLOT8_NUT1_M3_ENVELOPE",
+          "b": "PSU2_CABLE_RESERVATION",
+          "volume_mm3": 69.2721
+        },
+        {
+          "a": "SLOT6_GPU_HALF_PROTOTYPE",
+          "b": "PSU1_CABLE_RESERVATION",
+          "volume_mm3": 6498.627
+        },
+        {
+          "a": "SLOT6_FAN_HALF_PROTOTYPE",
+          "b": "PSU1_CABLE_RESERVATION",
+          "volume_mm3": 5761.0
+        },
+        {
+          "a": "SLOT6_COLLAR_LOWER_PROTOTYPE",
+          "b": "PSU1_CABLE_RESERVATION",
+          "volume_mm3": 3881.2272
+        },
+        {
+          "a": "SLOT6_BOLT1_M3X16_ENVELOPE",
+          "b": "PSU1_CABLE_RESERVATION",
+          "volume_mm3": 60.4364
+        },
+        {
+          "a": "SLOT6_NUT1_M3_ENVELOPE",
+          "b": "PSU1_CABLE_RESERVATION",
+          "volume_mm3": 69.2721
+        }
+      ],
+      "psu_clearance_pass": false
+    }
+  ],
+  "physical_fit_status": "UNVERIFIED; motherboard not ordered, PSUs and fans not selected",
+  "lid_clearance_status": "Checked to260.35mm body ceiling. R01's5mm lid allowance is additive above it; ribs, screws and other lid intrusions remain unmodeled.",
+  "thermal_status": "NOT TESTED",
+  "structural_status": "NOT TESTED; clamps are friction joints, not chassis supports",
+  "print_support_status": "NOT SLICED: spigot transitions, clamp ears and overhangs need slicer review",
+  "required_measurements": [
+    "Resolve motherboard width disagreement and measure all 14 mounting holes relative to a defined PCB datum",
+    "Measure rear I/O shield plane and all four GPU slot planes relative to PCB edges",
+    "Measure each passive and blower GPU housing, bracket tabs/flanges and power-connector plug/bend envelopes",
+    "Measure both existing NVLink bridges and their installed height and position",
+    "Select narrow-ILM LGA2011-3 CPU coolers and record full envelope, airflow and fastener access",
+    "Select both PSUs; record depth, modular-connector positions and cable bend/plug envelopes",
+    "Measure motherboard DIMMs, VRMs, PCH and auxiliary-power plugs beneath the proposed ducts",
+    "Design duct supports forward of PCB; original Y350 floor anchors are covered by this board layout",
+    "Resolve original rear-bracket clearance and PSU screw-seat issues through physical fit checks",
+    "Print and measure split-duct socket/spigot fit, collar closure and M3 fastener stack; axial retention is friction only",
+    "Select fan models and measure actual heatsink pressure drop, per-card airflow and GPU temperatures; equal area is not equal airflow",
+    "Verify Bambu Studio plate placement, brim, supports, travel/cutter and flow-calibration regions before printing"
+  ]
+}

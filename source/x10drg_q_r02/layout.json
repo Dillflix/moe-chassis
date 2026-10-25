@@ -1,0 +1,262 @@
+{
+  "revision": "X10DRG-Q-RTX8000-R02-FIT-PROTOTYPES",
+  "units": "mm",
+  "production_ready": false,
+  "coordinate_system": "+X left, +Y front, +Z up; origin rear-right-bottom",
+  "chassis": {
+    "width": 444.5,
+    "height": 260.35,
+    "wall": 5.0,
+    "floor": 19.05,
+    "lid_allowance": 5.0,
+    "variants": {
+      "compact": 584.2,
+      "extended": 634.2
+    },
+    "status": "Original width/height retained; extended depth is a proposal. No rack-ear load claim."
+  },
+  "board": {
+    "width": 386.1,
+    "depth": 335.3,
+    "thickness": 1.57,
+    "origin_xy": [
+      25.0,
+      20.918
+    ],
+    "standoff_height": 6.35,
+    "mounting_holes": null,
+    "mounting_hole_count": 14,
+    "dimension_evidence": {
+      "product_page_mm": [
+        386.1,
+        335.3
+      ],
+      "manual_alternate_width_mm": 384.04,
+      "policy": "Use larger published width for the concept envelope; resolve physical dimensions before mounting geometry.",
+      "source": "https://www.supermicro.com/en/products/motherboard/X10DRG-Q"
+    },
+    "datum_status": "PROVISIONAL: origin is a layout choice. No measured mounting-hole, I/O-shield or slot-to-outline datums.",
+    "front_component_reservation": {
+      "x": 310.0,
+      "y": 300.0,
+      "width": 65.0,
+      "depth": 50.0,
+      "height_above_pcb": 30.0,
+      "status": "PROVISIONAL PCH/front-component reservation; replace with measured components"
+    },
+    "purchase_status": "NOT ORDERED; no physical board measurements available"
+  },
+  "gpus": {
+    "slot_pitch": 20.32,
+    "card_pitch": 40.64,
+    "first_slot_plane_x": 252.0,
+    "rear_y": 16.2,
+    "body_bottom_z": 40.0,
+    "body_length": 266.7,
+    "body_height": 111.76,
+    "body_width_reservation": 40.64,
+    "backplate_offset": 3.0,
+    "slots": [
+      8,
+      6,
+      4,
+      2
+    ],
+    "cooling": [
+      "passive",
+      "passive",
+      "passive",
+      "blower"
+    ],
+    "cpu_owners": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "status": "40.64 pitch is nominal dual-slot spacing. First plane, body-to-slot offsets and all GPU envelopes are provisional; different active/passive housings require measurement.",
+    "nvlink": {
+      "pairs": [
+        [
+          8,
+          6
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "y_min": 35.0,
+      "y_max": 220.0,
+      "extra_x": 10.0,
+      "height_above_gpu": 25.0,
+      "status": "Oversized planning reservations, NOT measured bridge solids or proof of bridge fit"
+    },
+    "blower_air_reservation": {
+      "y_min": 170.0,
+      "y_max": 282.9,
+      "z_min": 50.0,
+      "z_max": 150.0,
+      "status": "PROVISIONAL side intake/service region; actual blower inlet must be measured"
+    },
+    "power_connector_keepouts": null
+  },
+  "cpu_coolers": {
+    "centers_xy": [
+      [
+        160.0,
+        267.0
+      ],
+      [
+        105.0,
+        135.0
+      ]
+    ],
+    "envelope_xyz": [
+      100.0,
+      100.0,
+      120.0
+    ],
+    "status": "PROVISIONAL cooler envelopes and approximate socket centers; target requires narrow-ILM LGA2011-3 coolers, model not selected"
+  },
+  "psus": {
+    "count": 2,
+    "x": 38.1,
+    "y": 370.0,
+    "body_depth_x": 160,
+    "face_width_y": 150.0,
+    "height": 86.0,
+    "bottom_z": [
+      19.05,
+      164.35
+    ],
+    "cable_clearance_x": 30.0,
+    "screw_holes": null,
+    "status": "NO PSU SELECTED. Default160mm body plus30mm cable reservation; profile140/150/160/180/200mm bodies and30/50mm cable zones. No electrical load-sharing claim."
+  },
+  "fans": {
+    "size": 120.0,
+    "thickness": 25.0,
+    "front_centers_x": [
+      139.5,
+      259.5,
+      379.5
+    ],
+    "duct_centers_x": [
+      252.0,
+      372.0
+    ],
+    "centers_z": [
+      79.05,
+      199.05
+    ],
+    "front_rear_offset_from_depth": 30.0,
+    "duct_rear_offset_from_depth": 60.2,
+    "status": "R02 three dedicated120mm fans, one per passive GPU. L bank: slot8 upper-left, slot6 lower-left, slot4 lower-right. Equal fan face area is not equal airflow."
+  },
+  "ducts": {
+    "wall": 2.0,
+    "gpu_end_gap": 0.5,
+    "outlet_bottom_z": 43.0,
+    "outlet_top_z": 145.0,
+    "rise_end_y": 310.0,
+    "middle_bottom_z": 80.0,
+    "middle_top_z": 165.0,
+    "front_transition_length": 49.0,
+    "support_mounts": null,
+    "status": "Three closed concept shells with open ends. Mouths are rectangular reservations, not final RTX 8000 interfaces. No print-overhang, thermal or physical-fit validation."
+  },
+  "printer": {
+    "model": "Bambu Lab P1S",
+    "user_confirmed": true,
+    "bed_xyz": [
+      220,
+      220,
+      240
+    ],
+    "nominal_machine_xyz": [
+      256,
+      256,
+      256
+    ],
+    "profile_print_height": 250,
+    "brim_mm": 5,
+    "cutter_exclusion_xy": [
+      0,
+      0,
+      18,
+      28
+    ],
+    "status": "Conservative body cap220x220x240; actual centered placement plus5mm brim and cutter exclusion checked. Slicer must still verify supports, purge/flow-calibration regions and toolpaths."
+  },
+  "required_measurements": [
+    "Resolve motherboard width disagreement and measure all 14 mounting holes relative to a defined PCB datum",
+    "Measure rear I/O shield plane and all four GPU slot planes relative to PCB edges",
+    "Measure each passive and blower GPU housing, bracket tabs/flanges and power-connector plug/bend envelopes",
+    "Measure both existing NVLink bridges and their installed height and position",
+    "Select narrow-ILM LGA2011-3 CPU coolers and record full envelope, airflow and fastener access",
+    "Select both PSUs; record depth, modular-connector positions and cable bend/plug envelopes",
+    "Measure motherboard DIMMs, VRMs, PCH and auxiliary-power plugs beneath the proposed ducts",
+    "Design duct supports forward of PCB; original Y350 floor anchors are covered by this board layout",
+    "Resolve original rear-bracket clearance and PSU screw-seat issues through physical fit checks",
+    "Print and measure split-duct socket/spigot fit, collar closure and M3 fastener stack; axial retention is friction only",
+    "Select fan models and measure actual heatsink pressure drop, per-card airflow and GPU temperatures; equal area is not equal airflow",
+    "Verify Bambu Studio plate placement, brim, supports, travel/cutter and flow-calibration regions before printing"
+  ],
+  "r02": {
+    "route_middle_centers_x": [
+      269.32,
+      300,
+      365
+    ],
+    "route_middle_bottom_z": [
+      165,
+      65,
+      65
+    ],
+    "route_middle_width": 30,
+    "route_middle_height": 86,
+    "mouth_side_inset": 2,
+    "clearance_y": 299,
+    "clearance_bottom_z": 65,
+    "clearance_top_z": 151,
+    "middle_start_y": 400,
+    "joint_y": 450,
+    "spigot_length": 10,
+    "spigot_entry_taper": 6,
+    "spigot_wall": 1.6,
+    "radial_clearance": 0.3,
+    "collar_clearance": 0.3,
+    "collar_wall": 2.5,
+    "collar_length": 32,
+    "collar_split_gap": 1,
+    "ear_thickness": 4,
+    "bolt_clearance_diameter": 3.4,
+    "bolt_length": 16,
+    "fan_routes": {
+      "8": [
+        252,
+        199.05
+      ],
+      "6": [
+        252,
+        79.05
+      ],
+      "4": [
+        372,
+        79.05
+      ]
+    },
+    "psu_body_depth_profiles": [
+      140,
+      150,
+      160,
+      180,
+      200
+    ],
+    "psu_cable_profiles": [
+      30,
+      50
+    ]
+  }
+}
