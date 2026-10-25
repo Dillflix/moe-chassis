@@ -2,6 +2,38 @@
 
 [← Project](../README.md) · [Print selection](printing.md) · [Dimensions](dimensions.md)
 
+## X10DRG-Q / RTX 8000 development
+
+The fork's R01 study has a separate generator:
+
+```bash
+python tools/build_x10drg_q.py --output build/x10drg-q-r01
+python tools/build_fit_coupons.py --output build/psu-fit-r01
+```
+
+Read the [variant plan](x10drg-q-plan.md) and
+[measurement checklist](x10drg-q-measurements.md) before using its output.
+R01 models component envelopes and cooling concepts; it does not establish
+mounting-hole accuracy, complete assembly fit, structural capacity or thermal
+performance. Concept meshes are separate from the original 34-part print set.
+The commands below continue to reproduce the upstream ASUS/V620 baseline.
+
+The [PSU screw-seat fit samples](psu-fit-samples.md) are small, separate
+prototype prints for comparing a 2mm recessed land with the original 5mm
+wall. Their successful geometry checks do not resolve the upstream physical
+fit issue or establish the strength of a future full mounting plate.
+
+Run the variant regression checks with:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+These check the observed cable-clearance collision, fan rotor keepouts,
+parameter-dependent anchor coverage, actual exported STL dimensions and
+bed contact, output preservation, and the PSU coupon's remaining material.
+They do not establish physical fit or thermal performance.
+
 This repository publishes **Python, STEP geometry, guides, and CAD renders**. STL files and print ZIPs are generated locally. The saved STEP solids are the authoritative geometry for the printed build; the two open chassis fit bugs are still present.
 
 ## Quick start — all 34 print files
@@ -9,7 +41,7 @@ This repository publishes **Python, STEP geometry, guides, and CAD renders**. ST
 Use Python 3.12 on Linux. The dependency versions match the environment used for the export and checks.
 
 ```bash
-git clone https://github.com/PraxisOG/moe-chassis.git
+git clone https://github.com/Dillflix/moe-chassis.git
 cd moe-chassis
 python3 -m venv .venv
 . .venv/bin/activate
@@ -19,7 +51,8 @@ python tools/validate_package.py --prints build/print
 python tools/package_prints.py
 ```
 
-Because the repository is private, authenticate to GitHub with your usual Git credential helper or use your configured SSH clone URL. No token belongs in the repository.
+Use your usual Git credential helper or configured SSH URL for authenticated
+operations. No token belongs in the repository.
 
 The result is `build/print/`, grouped into `chassis`, `connectors`, `ducts`, `lid`, `cradles-and-shim`, and `legacy-carrier`, plus `build/MOE-Step22-Print-Pack.zip`. Read [print selection](printing.md): the 34 files include retained mounting alternatives, not 34 mandatory parts. Units are millimetres and scale is 100%.
 

@@ -1,5 +1,25 @@
 # Revision and fit history
 
+## X10DRG-Q / RTX 8000 variant — R01, 25 October 2026
+
+The Dillflix fork starts a separate parametric layout study for the X10DRG-Q,
+four RTX 8000 cards (three passive, one blower), two NVLink pairs and two ATX
+PSUs. This revision adds the design plan, measurement requirements, generator,
+actual CAD views and machine-readable geometry reports. Published upstream
+STEP solids and the original 34-part print set are unchanged.
+
+Two separate 30 × 30 × 5mm PSU screw-seat coupons compare a proposed 2mm
+local land with the original 5mm wall. STEP, regenerated on-bed STL, CAD
+views and mesh checks are provided; actual screw fit is pending.
+
+R01 is not a manufacturing release. The motherboard outline sources disagree
+by approximately 2mm along the rear edge; mounting-hole and absolute slot/I/O
+coordinates are not dimensioned in the available documentation. Provisional
+envelopes must not be used as drilling templates. Both upstream physical fit
+issues remain open. See the [variant plan](x10drg-q-plan.md).
+
+## Upstream baseline
+
 | Design step | What is included | Status |
 |---|---|---|
 | Step 15 / 16 chassis | Four quadrants, seven connectors, five rod channels, lid mounts; Step 16 front-left adds six floor inserts | Printed baseline. Rear GPU top-flange and PSU screw-seat bugs remain open. |

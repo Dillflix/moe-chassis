@@ -1,6 +1,51 @@
+# MOE — X10DRG-Q / RTX 8000 variant
+
+This fork develops a shelf-supported chassis for a **Supermicro X10DRG-Q,
+two Xeon E5-2630L v4 CPUs, eight 32GB ECC RDIMMs, three passive Quadro RTX
+8000s and one blower RTX 8000**, retaining two NVLink pairs and provision
+for two ATX power supplies.
+
+**R01 is a layout and cooling design study, not a chassis print release.**
+Motherboard mounting holes, absolute PCIe/I/O datums, actual GPU duct mouths,
+bridge dimensions, CPU coolers and PSU cable exits still require measurement.
+The generator keeps provisional geometry separate from verified dimensions.
+
+[Design plan](docs/x10drg-q-plan.md) ·
+[Measurements needed](docs/x10drg-q-measurements.md) ·
+[PSU fit samples](docs/psu-fit-samples.md) ·
+[R01 extended STEP](cad/x10drg-q-r01/extended/layout.step) ·
+[Layout comparison](checks/x10drg-q-r01/comparison.json)
+
+![X10DRG-Q R01 concept generated from CAD](renders/x10drg-q-r01/extended/overview.png)
+
+| R01 layout | Modeled clearance result | Concept ducts on provisional 256mm printer |
+|---|---|---|
+| Original 584.2mm depth | Two PSU cable-reservation/duct collisions | Fit the nominal build volume; not fit-validated parts |
+| Extended 634.2mm depth | No collisions among the modeled envelopes | 290.6mm long; require splitting or a larger printer |
+
+The extended option is the current layout candidate. Its three passive duct
+inlets have a **1:1:2 area ratio**: routing is modeled, but airflow balancing
+remains unresolved. Neither layout includes measured mounting interfaces or
+a printable full enclosure.
+
+Generate the new study independently of the preserved upstream print files:
+
+```bash
+python -m pip install -r requirements-cad.txt
+python tools/build_x10drg_q.py --output build/x10drg-q-r01
+python tools/build_fit_coupons.py --output build/psu-fit-r01
+```
+
+The design uses the upstream coordinate convention: **+X left, +Y front,
++Z up; floor Z19.05mm**. The original Step 16–22 files and their known fit
+issues are preserved below. Their production STL exporter continues to
+describe the original ASUS/V620 build, not this variant.
+
+---
+
 <div align="center">
 
-# MOE
+# Upstream MOE baseline
 ### A printed 6U home for four Radeon Pro V620s
 
 **Four chassis sections · Dual 1000 W PSUs · Ducted GPU cooling · A removable lid**

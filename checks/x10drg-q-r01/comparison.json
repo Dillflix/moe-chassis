@@ -1,0 +1,27 @@
+{
+  "revision": "X10DRG-Q-RTX8000-R01-CONCEPT",
+  "variants": {
+    "compact": {
+      "depth_mm": 584.2,
+      "modeled_geometry_pass": false,
+      "collision_count": 2,
+      "outside_count": 0,
+      "concept_meshes_pass": true,
+      "all_concept_parts_fit_provisional_printer": true,
+      "production_ready": false,
+      "files": "compact/"
+    },
+    "extended": {
+      "depth_mm": 634.2,
+      "modeled_geometry_pass": true,
+      "collision_count": 0,
+      "outside_count": 0,
+      "concept_meshes_pass": true,
+      "all_concept_parts_fit_provisional_printer": false,
+      "production_ready": false,
+      "files": "extended/"
+    }
+  },
+  "production_ready": false,
+  "interpretation": "A modeled clearance pass applies only to these provisional envelopes. It does not validate owned hardware, mounting, airflow, structural capacity or printability."
+}
