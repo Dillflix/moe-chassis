@@ -1,0 +1,200 @@
+[
+  {
+    "file": "Duct20_PAIR_A_BASE_Print.stl",
+    "triangles": 6348,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      64.0,
+      130.0,
+      8.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_A_REAR_SLIDER_Print.stl",
+    "triangles": 3800,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      24.0,
+      28.0,
+      6.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_A_REAR_SADDLE_Print.stl",
+    "triangles": 3934,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      40.0,
+      28.0,
+      6.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_A_REAR_RISER_10_Print.stl",
+    "triangles": 2044,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      24.0,
+      28.0,
+      10.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_A_FRONT_SLIDER_Print.stl",
+    "triangles": 3800,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      24.0,
+      28.0,
+      6.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_A_FRONT_SADDLE_Print.stl",
+    "triangles": 3934,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      40.0,
+      28.0,
+      6.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_A_FRONT_RISER_10_Print.stl",
+    "triangles": 2044,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      24.0,
+      28.0,
+      10.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_B_BASE_Print.stl",
+    "triangles": 6348,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      70.0,
+      130.0,
+      8.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_B_REAR_SLIDER_Print.stl",
+    "triangles": 3800,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      24.0,
+      28.0,
+      6.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_B_REAR_SADDLE_Print.stl",
+    "triangles": 3700,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      40.0,
+      28.0,
+      6.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_B_REAR_RISER_10_Print.stl",
+    "triangles": 2044,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      24.0,
+      28.0,
+      10.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_B_FRONT_SLIDER_Print.stl",
+    "triangles": 3800,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      24.0,
+      28.0,
+      6.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_B_FRONT_SADDLE_Print.stl",
+    "triangles": 3620,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      40.0,
+      28.0,
+      6.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_B_FRONT_RISER_10_Print.stl",
+    "triangles": 2044,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      24.0,
+      28.0,
+      10.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_A_DUCT_Print.stl",
+    "triangles": 15572,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      130.43499755859375,
+      240.0,
+      219.0
+    ]
+  },
+  {
+    "file": "Duct20_PAIR_B_DUCT_Print.stl",
+    "triangles": 15576,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      120.0,
+      240.0,
+      219.0
+    ]
+  },
+  {
+    "file": "Duct20_FAN_BANK_CARRIER_Print.stl",
+    "triangles": 9396,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      240.0,
+      240.0,
+      20.0
+    ]
+  },
+  {
+    "file": "Duct20_Optional_2mm_Height_Shim_Print.stl",
+    "triangles": 2044,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      24.0,
+      28.0,
+      2.0
+    ]
+  }
+]

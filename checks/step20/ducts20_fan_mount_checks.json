@@ -1,0 +1,155 @@
+{
+  "hole_count": 16,
+  "hole_diameter_mm": 3.4,
+  "pattern_mm": 105,
+  "recess_radius_mm": 5,
+  "nut_washer_seat_y": 474,
+  "fan_face_y": 480,
+  "checks": [
+    {
+      "pair": "A",
+      "center_xz": [
+        199.5,
+        26.549999999999997
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "A",
+      "center_xz": [
+        199.5,
+        131.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "A",
+      "center_xz": [
+        304.5,
+        26.549999999999997
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "A",
+      "center_xz": [
+        304.5,
+        131.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "A",
+      "center_xz": [
+        199.5,
+        146.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "A",
+      "center_xz": [
+        199.5,
+        251.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "A",
+      "center_xz": [
+        304.5,
+        146.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "A",
+      "center_xz": [
+        304.5,
+        251.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "B",
+      "center_xz": [
+        319.5,
+        26.549999999999997
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "B",
+      "center_xz": [
+        319.5,
+        131.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "B",
+      "center_xz": [
+        424.5,
+        26.549999999999997
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "B",
+      "center_xz": [
+        424.5,
+        131.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "B",
+      "center_xz": [
+        319.5,
+        146.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "B",
+      "center_xz": [
+        319.5,
+        251.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "B",
+      "center_xz": [
+        424.5,
+        146.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    },
+    {
+      "pair": "B",
+      "center_xz": [
+        424.5,
+        251.55
+      ],
+      "hardware_or_key_overlap_mm3": 0.0,
+      "missing_washer_seat_mm3": 0.0
+    }
+  ],
+  "issues": []
+}

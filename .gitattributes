@@ -1,0 +1,8 @@
+*.stl binary
+*.png binary
+*.pdf binary
+*.zip binary
+*.step -diff
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf

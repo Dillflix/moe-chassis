@@ -1,0 +1,58 @@
+[
+  {
+    "file": "Lid21_FRONT_LEFT_Print.stl",
+    "triangles": 2212,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      222.10000600351563,
+      291.9500121070312,
+      5.0
+    ],
+    "bottom_z_mm": 0.0,
+    "downward_faces_steeper_than_45_degrees_excluding_bed": 0,
+    "signed_mesh_volume_mm3": 263940.0841955284
+  },
+  {
+    "file": "Lid21_FRONT_RIGHT_Print.stl",
+    "triangles": 3116,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      226.10000600351563,
+      291.9500121070312,
+      5.0
+    ],
+    "bottom_z_mm": 0.0,
+    "downward_faces_steeper_than_45_degrees_excluding_bed": 0,
+    "signed_mesh_volume_mm3": 268565.01187460445
+  },
+  {
+    "file": "Lid21_REAR_LEFT_Print.stl",
+    "triangles": 3100,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      222.10000600351563,
+      295.9500121070312,
+      5.0
+    ],
+    "bottom_z_mm": 0.0,
+    "downward_faces_steeper_than_45_degrees_excluding_bed": 0,
+    "signed_mesh_volume_mm3": 267448.5781414047
+  },
+  {
+    "file": "Lid21_REAR_RIGHT_Print.stl",
+    "triangles": 4004,
+    "closed": true,
+    "consistent_winding": true,
+    "print_bounds_mm": [
+      226.10000600351563,
+      295.9500121070312,
+      5.0
+    ],
+    "bottom_z_mm": 0.0,
+    "downward_faces_steeper_than_45_degrees_excluding_bed": 0,
+    "signed_mesh_volume_mm3": 272158.83915168064
+  }
+]

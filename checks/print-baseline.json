@@ -1,0 +1,277 @@
+{
+  "note": "Bounds and mesh volumes measured from the original 34 supplied STL files; used to check regenerated meshes. Geometry remains the saved STEP baseline.",
+  "parts": {
+    "chassis/6U_Step16_FRONT_LEFT_Print.stl": {
+      "bounds_mm": [
+        260.35000600351566,
+        291.95001210702924,
+        222.10000610351562
+      ],
+      "volume_mm3": 1600782.4398732875
+    },
+    "chassis/6U_Step16_FRONT_RIGHT_Print.stl": {
+      "bounds_mm": [
+        260.3500060035156,
+        291.9500121070312,
+        238.25
+      ],
+      "volume_mm3": 1768672.9229756722
+    },
+    "chassis/6U_Step16_REAR_LEFT_Print.stl": {
+      "bounds_mm": [
+        260.3500061035156,
+        308.1000061035156,
+        222.10000610351562
+      ],
+      "volume_mm3": 1729899.9353644091
+    },
+    "chassis/6U_Step16_REAR_RIGHT_Print.stl": {
+      "bounds_mm": [
+        260.3500061035156,
+        308.1000061035156,
+        238.25
+      ],
+      "volume_mm3": 1813408.554768589
+    },
+    "connectors/6U_Step16_BRIDGE_X_FRONT_Print.stl": {
+      "bounds_mm": [
+        46.0,
+        18.0,
+        8.0
+      ],
+      "volume_mm3": 6182.374636764619
+    },
+    "connectors/6U_Step16_BRIDGE_X_REAR_Print.stl": {
+      "bounds_mm": [
+        46.0,
+        18.0,
+        8.0
+      ],
+      "volume_mm3": 6182.374636764619
+    },
+    "connectors/6U_Step16_BRIDGE_Y_LEFT_Print.stl": {
+      "bounds_mm": [
+        18.0,
+        46.0,
+        8.0
+      ],
+      "volume_mm3": 6158.911950778399
+    },
+    "connectors/6U_Step16_BRIDGE_Y_RIGHT_Print.stl": {
+      "bounds_mm": [
+        18.0,
+        46.0,
+        8.0
+      ],
+      "volume_mm3": 6158.911950778399
+    },
+    "connectors/6U_Step16_STRAP_LEFT_Print.stl": {
+      "bounds_mm": [
+        12.0,
+        40.0,
+        4.0
+      ],
+      "volume_mm3": 1847.3964793319058
+    },
+    "connectors/6U_Step16_STRAP_REAR_Print.stl": {
+      "bounds_mm": [
+        40.0,
+        8.0,
+        4.0
+      ],
+      "volume_mm3": 1207.3964799390578
+    },
+    "connectors/6U_Step16_STRAP_RIGHT_Print.stl": {
+      "bounds_mm": [
+        12.0,
+        40.0,
+        4.0
+      ],
+      "volume_mm3": 1847.396479331911
+    },
+    "cradles-and-shim/Duct20_Optional_2mm_Height_Shim_Print.stl": {
+      "bounds_mm": [
+        24.0,
+        28.0,
+        2.0
+      ],
+      "volume_mm3": 1253.0571796250467
+    },
+    "cradles-and-shim/Duct20_PAIR_A_BASE_Print.stl": {
+      "bounds_mm": [
+        64.0,
+        130.0,
+        8.0
+      ],
+      "volume_mm3": 58390.76326002282
+    },
+    "cradles-and-shim/Duct20_PAIR_A_FRONT_RISER_10_Print.stl": {
+      "bounds_mm": [
+        24.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 6265.285876341732
+    },
+    "cradles-and-shim/Duct20_PAIR_A_FRONT_SADDLE_Print.stl": {
+      "bounds_mm": [
+        40.0,
+        28.0,
+        6.0
+      ],
+      "volume_mm3": 6079.821310157341
+    },
+    "cradles-and-shim/Duct20_PAIR_A_FRONT_SLIDER_Print.stl": {
+      "bounds_mm": [
+        24.0,
+        28.0,
+        6.0
+      ],
+      "volume_mm3": 3476.7483248588837
+    },
+    "cradles-and-shim/Duct20_PAIR_A_REAR_RISER_10_Print.stl": {
+      "bounds_mm": [
+        24.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 6265.285876341732
+    },
+    "cradles-and-shim/Duct20_PAIR_A_REAR_SADDLE_Print.stl": {
+      "bounds_mm": [
+        40.0,
+        28.0,
+        6.0
+      ],
+      "volume_mm3": 6079.821308766012
+    },
+    "cradles-and-shim/Duct20_PAIR_A_REAR_SLIDER_Print.stl": {
+      "bounds_mm": [
+        24.0,
+        28.0,
+        6.0
+      ],
+      "volume_mm3": 3476.7483248588837
+    },
+    "cradles-and-shim/Duct20_PAIR_B_BASE_Print.stl": {
+      "bounds_mm": [
+        70.0,
+        130.0,
+        8.0
+      ],
+      "volume_mm3": 64275.084059328015
+    },
+    "cradles-and-shim/Duct20_PAIR_B_FRONT_RISER_10_Print.stl": {
+      "bounds_mm": [
+        24.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 6265.285876341732
+    },
+    "cradles-and-shim/Duct20_PAIR_B_FRONT_SADDLE_Print.stl": {
+      "bounds_mm": [
+        40.0,
+        28.0,
+        5.999999899999999
+      ],
+      "volume_mm3": 6113.158285317945
+    },
+    "cradles-and-shim/Duct20_PAIR_B_FRONT_SLIDER_Print.stl": {
+      "bounds_mm": [
+        24.0,
+        28.0,
+        6.0
+      ],
+      "volume_mm3": 3476.7483248588837
+    },
+    "cradles-and-shim/Duct20_PAIR_B_REAR_RISER_10_Print.stl": {
+      "bounds_mm": [
+        24.0,
+        28.0,
+        10.0
+      ],
+      "volume_mm3": 6265.285876341732
+    },
+    "cradles-and-shim/Duct20_PAIR_B_REAR_SADDLE_Print.stl": {
+      "bounds_mm": [
+        40.0,
+        28.0,
+        5.999999899999999
+      ],
+      "volume_mm3": 6094.6008758741455
+    },
+    "cradles-and-shim/Duct20_PAIR_B_REAR_SLIDER_Print.stl": {
+      "bounds_mm": [
+        24.0,
+        28.0,
+        6.0
+      ],
+      "volume_mm3": 3476.7483248588837
+    },
+    "ducts/Duct20_PAIR_A_DUCT_Print.stl": {
+      "bounds_mm": [
+        130.43499745859376,
+        239.9999999,
+        219.0
+      ],
+      "volume_mm3": 357450.07473386964
+    },
+    "ducts/Duct20_PAIR_B_DUCT_Print.stl": {
+      "bounds_mm": [
+        119.99999989998645,
+        239.9999999,
+        219.0
+      ],
+      "volume_mm3": 357116.20017891907
+    },
+    "ducts/MOE_Duct_Retaining_Bar_Step22_Print.stl": {
+      "bounds_mm": [
+        240.0,
+        18.999999899999978,
+        24.0
+      ],
+      "volume_mm3": 17315.677986021703
+    },
+    "legacy-carrier/Duct20_FAN_BANK_CARRIER_Print.stl": {
+      "bounds_mm": [
+        240.0,
+        240.0,
+        20.0
+      ],
+      "volume_mm3": 127631.2535835387
+    },
+    "lid/Lid21_FRONT_LEFT_Print.stl": {
+      "bounds_mm": [
+        222.10000600351563,
+        291.9500121070312,
+        5.0
+      ],
+      "volume_mm3": 263940.0841955284
+    },
+    "lid/Lid21_FRONT_RIGHT_Print.stl": {
+      "bounds_mm": [
+        226.10000600351563,
+        291.9500121070312,
+        5.0
+      ],
+      "volume_mm3": 268565.01187460445
+    },
+    "lid/Lid21_REAR_LEFT_Print.stl": {
+      "bounds_mm": [
+        222.10000600351563,
+        295.9500121070312,
+        5.0
+      ],
+      "volume_mm3": 267448.5781414047
+    },
+    "lid/Lid21_REAR_RIGHT_Print.stl": {
+      "bounds_mm": [
+        226.10000600351563,
+        295.9500121070312,
+        5.0
+      ],
+      "volume_mm3": 272158.83915168064
+    }
+  }
+}

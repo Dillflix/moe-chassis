@@ -1,0 +1,56 @@
+{
+  "revision": 24,
+  "step": 20,
+  "rows": [
+    [
+      "Parameter",
+      "Dimension or hardware"
+    ],
+    [
+      "Corner recess count",
+      "16 total; 8 per paired duct"
+    ],
+    [
+      "Recess radius",
+      "R5; rounded wall relief"
+    ],
+    [
+      "Hole diameter and spacing",
+      "\u00d83.4 through; 105 \u00d7 105 square per fan"
+    ],
+    [
+      "Mounting face",
+      "Y480; screw seats at Y474"
+    ],
+    [
+      "Bearing thickness",
+      "6 mm, including the reinforced seat"
+    ],
+    [
+      "Radial wall allowance",
+      "Approximately 2 mm around each recess"
+    ],
+    [
+      "Tool clearance",
+      "Nut driver; 8 mm diameter axial clearance envelope"
+    ],
+    [
+      "Single duct fan stage",
+      "16 M3\u00d755 +32 washers +16 nuts"
+    ],
+    [
+      "Both duct fan stages",
+      "Substitute 16 M3\u00d780; same washers and nuts"
+    ],
+    [
+      "Print orientation and height",
+      "Fan face down; 219 mm, unchanged"
+    ]
+  ],
+  "changed_parts": [
+    "PAIR_A_DUCT",
+    "PAIR_B_DUCT"
+  ],
+  "fan_hole_count": 16,
+  "physical_fit_verified": false
+}

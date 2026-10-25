@@ -1,0 +1,95 @@
+MOE — STEP 22 / LOW DUCT RETAINING BAR
+Revision 26 — 23 October 2026
+
+Print one bar. This replaces the tall Step 20 FAN_BANK_CARRIER at the fan
+intake end. No chassis reprint, new heatserts, or changes to the duct prints.
+
+POSITION / DIMENSIONS (mm)
+The front/intake faces of the duct fans contact the rear face of the bar.
+That contact face is EXACTLY 10.00 mm behind the centers of the two front
+floor heatserts. Feet project FORWARD, toward the six front chassis fans.
+
+Part envelope: 240 wide x 19 fore-aft x 24 tall above the chassis floor.
+Vertical bar thickness: 6.00. Floor feet: 4.00 thick.
+Two open-top scallops follow 120.00 mm diameter circles.
+The 2.00 mm sole connects the bar along the fan-frame bottom edges.
+It sits below the nominal 115 mm airway; the two small forward feet and
+floor screw heads occupy a little space near the lower inlet rim.
+The upper two fans have no retaining bar in front of them.
+
+CAD axes: +X is chassis left, +Y front, +Z up.
+Floor Z = 19.05. Floor anchor centers: (260, 520) and (400, 520); 140 pitch.
+Fan front / bar contact plane Y = 510. Bar body runs Y 510–516.
+Feet reach Y 529. Fan center X = 252 and 372; lower center Z = 79.05.
+Four fan holes: X 199.5, 304.5, 319.5, 424.5 at Z 26.55.
+Fan pattern is unchanged, 105 mm horizontally. Bar holes are 45-degree
+diamonds with a 3.4 mm inscribed diameter for support-free small roofs.
+Floor holes are 3.4 mm round. A 10 mm driver envelope clears vertically.
+
+The existing reference geometry puts the rear of the front chassis fans at
+Y 554.2: 44.2 mm (1.74 inches) ahead of the duct-fan intake faces. Your 1.5-inch
+measurement was approximate; the clarified 10 mm heatsert offset controls.
+
+PRINT
+Use MOE_Duct_Retaining_Bar_Step22_Print.stl at 100% scale.
+The supplied STL is already underside down. Feet flat on bed; bar upright.
+PETG, 0.20 mm layers, 4 perimeters, 5 top/bottom layers, 40% infill are a
+reasonable starting profile. A brim can help this long, narrow print.
+No generated support is intended. The 45-degree mesh screen passes.
+Print only this STL; the context STEP contains reference parts and hardware.
+
+HARDWARE
+Floor: 2 M3×8 socket cap screws + 2 washers, 0.5 mm thick, OD <=7 mm.
+This reuses the former carrier floor-screw stack. Install heatserts flush.
+Nominal thread penetration 3.5 mm; blind-pocket bottom clearance 1.7 mm.
+
+Bar to fans/ducts: 4 M3×45 through-bolts, 8 washers, and 4 M3 nuts.
+This length assumes ONE 25 mm fan stage plus the 6 mm bar and the existing
+6 mm duct screw seats. Washers are 0.5 mm thick, OD <=7; M3 nuts are 5.5 AF
+and 2.4 mm thick. Fit washers at both head and nut.
+
+Removing the former 20 mm carrier changes all fan-bolt stack lengths.
+For the remaining 12 fan positions, M3×40 is the nominal single-stage
+selection with the same washers and nuts. Do not blindly reuse the old
+M3×55 bolts: their extra reach may contact the duct recess bottoms.
+If your actual fan thickness or stack differs, choose length to suit.
+
+INSTALL — KEEP THE FIDDLY WORK ON THE BENCH
+1. Remove the tall fan carrier. Keep any rear supports that are carrying
+   the duct bodies; this part locates and retains their front/fan ends.
+2. With both fan/duct modules outside the chassis, place their intake faces
+   against the back of the bar. Its two floor feet point toward you/front.
+3. Insert the four M3×45 bolts from the bar/front side through the two lower
+   corner holes of EACH LOWER fan and into the existing duct corner seats.
+   Fit washers and nuts in the accessible duct recesses. Leave slightly loose.
+   The upper fans use their existing duct mounts, with appropriate bolt length.
+4. Lower the joined assembly into the chassis. Let the GPU ends seat
+   naturally. Line the bar feet up with the two front floor inserts.
+5. From directly above, install the two M3×8 floor screws with washers.
+   Snug the floor screws and four bar bolts after checking alignment.
+6. Check that fan rotors turn freely and the GPU ends are not being pulled
+   into position by the fasteners. This is a locating/retaining bar, not a
+   replacement for any rear support needed to carry the duct weight.
+
+CHECKED / LIMITS
+One valid solid; watertight, consistently wound STL; 45-degree print screen.
+Existing insert coordinates and floor hardware checked against Step 16 CAD.
+No nominal collision with chassis, fan frames, ducts, or the specified hardware.
+Vertical 10 mm driver access checked at both floor screws.
+Fan-bank height is unchanged: 259.05 mm top, 1.30 mm below the lid underside.
+No new geometry raises the chassis height.
+
+The assembly STEP and render show one 25 mm fan stage at the clarified
+as-built position. This translates the OLD duct reference 5 mm forward
+for context only; do not move your already-fitted ducts to match a render.
+Old adjustable rear supports are omitted from the context for clarity.
+Physical fit, stiffness, thermal creep, and airflow have not been measured.
+No changes were made to any previous chassis, duct, or lid file.
+
+FILES
+MOE_Duct_Retaining_Bar_Step22_Print.stl — only part to print.
+MOE_Duct_Retaining_Bar_Step22.step — bar in chassis assembly coordinates.
+MOE_Duct_Retaining_Bar_Step22_Context.step — assembly reference, not a print.
+MOE_Duct_Retaining_Bar_Step22_Views.png — actual CAD views, gold is new part.
+Step22_Checks_And_Dimensions.json — checks and exact parameters.
+Sources — editable CadQuery source, renderer, and rebuild references.

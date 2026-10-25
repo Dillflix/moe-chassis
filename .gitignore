@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+*.log
+.DS_Store
+
+# Generate meshes and print archives locally.
+*.stl
+*.zip

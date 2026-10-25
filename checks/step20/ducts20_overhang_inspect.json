@@ -1,0 +1,8 @@
+{
+  "criterion": "Duct surfaces >45 degrees from -Y build direction; fan bed face excluded",
+  "flagged_faces": {
+    "PAIR_A_DUCT": [],
+    "PAIR_B_DUCT": []
+  },
+  "passed": true
+}

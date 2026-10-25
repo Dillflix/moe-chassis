@@ -1,0 +1,122 @@
+{
+  "revision": 26,
+  "step": 22,
+  "part_count": 1,
+  "changes_existing_prints": false,
+  "user_datum": "duct-fan intake/front faces 10mm rearward of front floor-insert centers",
+  "coordinate_frame": "+X chassis left; +Y front; +Z up",
+  "floor_z_mm": 19.05,
+  "front_floor_inserts_xyz": [
+    [
+      260.0,
+      520,
+      19.05
+    ],
+    [
+      400.0,
+      520,
+      19.05
+    ]
+  ],
+  "floor_insert_pitch_mm": 140,
+  "fan_contact_face_y_mm": 510.0,
+  "retaining_face_to_insert_center_mm": 10.0,
+  "bar_thickness_mm": 6.0,
+  "height_above_floor_mm": 24.0,
+  "scallop_diameter_mm": 120,
+  "bottom_sole_thickness_mm": 2.0,
+  "feet_thickness_mm": 4,
+  "fan_corner_holes_xz": [
+    [
+      199.5,
+      26.549999999999997
+    ],
+    [
+      304.5,
+      26.549999999999997
+    ],
+    [
+      319.5,
+      26.549999999999997
+    ],
+    [
+      424.5,
+      26.549999999999997
+    ]
+  ],
+  "fan_holes": "45deg diamond, 3.4mm inscribed diameter; no new tapped holes",
+  "fan_centers_xz": [
+    [
+      252.0,
+      79.05
+    ],
+    [
+      252.0,
+      199.05
+    ],
+    [
+      372.0,
+      79.05
+    ],
+    [
+      372.0,
+      199.05
+    ]
+  ],
+  "nominal_fan_bank_top_z_mm": 259.05,
+  "existing_lid_bottom_z_mm": 260.35,
+  "floor_hardware": "2 M3x8 socket cap screws + 2 washers (0.5mm, OD<=7)",
+  "bar_fan_hardware_single_25mm_stage": "4 M3x45 through bolts, 8 washers, 4 M3 nuts; includes unchanged 6mm duct seats",
+  "other_fan_hardware_single_25mm_stage": "12 M3x40 through bolts, 24 washers, 12 M3 nuts if removing the former 20mm carrier",
+  "front_fan_rear_y_mm": 554.2,
+  "fan_face_gap_mm": 44.2,
+  "nominal_front_fan_reference_gap_note": "44.2mm (1.74in) in existing CAD; user estimates about1.5in. The clarified10mm anchor datum controls.",
+  "duct_context_translation_y_mm": 5.0,
+  "duct_context_note": "One25mm fan stage; translated5mm forward to meet the as-built fan-front datum. Not a change to existing duct geometry; actual GPU seating controls.",
+  "physical_fit_verified": false,
+  "unchanged_chassis_sha256": "56243f7d0fe5517d004833ecd903261dc6a90804b9d5bf9e305a7e7332f20783",
+  "chassis_overlap_mm3": 0.0,
+  "airway_notes": "No bar crosses either upper fan;120mm scallops and2mm sole clear nominal115mm bore at contact face. Two local forward feet/floor screws are near the lower inlet rim; not a full-flow simulation.",
+  "airway_checks": [
+    {
+      "fan_center_x": 252.0,
+      "bar_and_foot_overlap_volume_mm3": 208.92602782586766,
+      "floor_screw_envelope_overlap_volume_mm3": 96.64399254706987
+    },
+    {
+      "fan_center_x": 372.0,
+      "bar_and_foot_overlap_volume_mm3": 0.0,
+      "floor_screw_envelope_overlap_volume_mm3": 0.0
+    }
+  ],
+  "floor_hardware_checks": [
+    {
+      "x": 260.0,
+      "insert_engagement_mm": 3.5,
+      "blind_pocket_bottom_clearance_mm": 1.7,
+      "vertical_driver_clear_diameter_mm": 10
+    },
+    {
+      "x": 400.0,
+      "insert_engagement_mm": 3.5,
+      "blind_pocket_bottom_clearance_mm": 1.7,
+      "vertical_driver_clear_diameter_mm": 10
+    }
+  ],
+  "interferences": [],
+  "valid_single_solid": true,
+  "print_bounds_mm": [
+    240.0,
+    19.000000100000022,
+    24.000000100000005
+  ],
+  "part_volume_mm3": 17308.892053076284,
+  "part_mass_g_at_1p27_g_per_cc": 21.982292907406883,
+  "mesh": {
+    "triangles": 2414,
+    "watertight": true,
+    "consistent_winding": true,
+    "unsupported_triangles_beyond_45deg": 0,
+    "signed_volume_mm3": 17315.677986021703
+  }
+}

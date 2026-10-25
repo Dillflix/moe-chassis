@@ -1,0 +1,410 @@
+{
+  "note": "Source and STEP distribution; excludes this manifest and generated outputs.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 118,
+      "sha256": "19f23827502da6fa3c304b17498623fd66a97dd42f0402399ad0e2d16271d4ae"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 108,
+      "sha256": "f3b0cfb3c7cfe83afbe081349a8844d3ba1b64703f647f4f6a41c278675bc822"
+    },
+    {
+      "path": "AGENTS.md",
+      "size_bytes": 914,
+      "sha256": "17513d495201f717499ab97d018da85c89c8d7762844e2859edfccc4f4b4f1e4"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 7166,
+      "sha256": "a2d894e7f6fc50de71402ba0cf9fb12e521f07de341f0fc26644785ee359bfe5"
+    },
+    {
+      "path": "cad/chassis/6U_Chassis_Step_16.step",
+      "size_bytes": 4680810,
+      "sha256": "56243f7d0fe5517d004833ecd903261dc6a90804b9d5bf9e305a7e7332f20783"
+    },
+    {
+      "path": "cad/ducts/Duct20_FAN_BANK_CARRIER.step",
+      "size_bytes": 290016,
+      "sha256": "d1af735db579eecda147e47cf9c2f688b3a9ca4c2587b2a012e17af2748ac60a"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_A_BASE.step",
+      "size_bytes": 324013,
+      "sha256": "f699f92dfd4ebb45f8398ce05a770cf16243d0338ca421ab7502d59e6f797107"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_A_DUCT.step",
+      "size_bytes": 1517375,
+      "sha256": "a42cb162347166593a09ae81fd3d0b84fc18543d27b98fa8b4be1976493017f2"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_A_FRONT_RISER_10.step",
+      "size_bytes": 30146,
+      "sha256": "bebb5e7d2a95d9556a03470188998cd00870830cd743998be85310b119f9ed42"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_A_FRONT_SADDLE.step",
+      "size_bytes": 44345,
+      "sha256": "31e5fa3ca9ab2d33fd5116c326f0de44ccfbd895207e022076a2ee86d777c52b"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_A_FRONT_SLIDER.step",
+      "size_bytes": 43223,
+      "sha256": "0493e969ea99cc8dc8f5f3dcd8847670b014ceb3315203c45f9d0752eb40edb7"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_A_REAR_RISER_10.step",
+      "size_bytes": 30146,
+      "sha256": "befadec1ad59a075a02c9a4be329827c670007606034727bb4ec3de4b4e9e64a"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_A_REAR_SADDLE.step",
+      "size_bytes": 44344,
+      "sha256": "4d9a77d559706cf04b0b10a1f0ee9d05efc38508e6b5b46018c7a61521a82031"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_A_REAR_SLIDER.step",
+      "size_bytes": 43223,
+      "sha256": "3edcdd572bdf9374e2d67edd33be9875cdf6b56958bbc0d91f6f6ea2d4547284"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_B_BASE.step",
+      "size_bytes": 323985,
+      "sha256": "20018c67bfb643c74e54bbbd08dc6a4cc00624b9f32cedc9838335e34c558827"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_B_DUCT.step",
+      "size_bytes": 1479908,
+      "sha256": "1890b2f310d97312abd3bdc072ba87cee4c2279c2dad4a45b5f2de74e0659b0f"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_B_FRONT_RISER_10.step",
+      "size_bytes": 30148,
+      "sha256": "24eed286ced5358fb264b7cb7b319d3c520f89d808e70497f02eb65108ece93d"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_B_FRONT_SADDLE.step",
+      "size_bytes": 53140,
+      "sha256": "ebc1fecf79732a97cda428b4916176e7720593fa41d4de17c099ffcdf42e3e16"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_B_FRONT_SLIDER.step",
+      "size_bytes": 43225,
+      "sha256": "d365cd3b04a91742119d82011c4b6568225186939e2ceacea6344101c93cd766"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_B_REAR_RISER_10.step",
+      "size_bytes": 30148,
+      "sha256": "6493ddda80ca6a74f281216186ba49d65cf052811d802375985595e0624a8278"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_B_REAR_SADDLE.step",
+      "size_bytes": 52727,
+      "sha256": "2d16e5fa4b5d71cbe38b4fbafa813177d33e3f39fb9ded6245b2aa15fbb386dc"
+    },
+    {
+      "path": "cad/ducts/Duct20_PAIR_B_REAR_SLIDER.step",
+      "size_bytes": 43223,
+      "sha256": "0e638c406f3b1fad46dd2fa52d151aededf4f2329534e2be28f11e04b99a358f"
+    },
+    {
+      "path": "cad/ducts/MOE_Duct_Retaining_Bar_Step22.step",
+      "size_bytes": 185695,
+      "sha256": "3ccff8a07b639909ac9937407c066d45b01b5556175b65bcb8f0e281766c4dea"
+    },
+    {
+      "path": "cad/lid/MOE_Lid_Step21.step",
+      "size_bytes": 1229708,
+      "sha256": "ca51b8ad7fdcb4cd0147dc70c6a7264cd4c9414cc765de3e922456a35a9844fb"
+    },
+    {
+      "path": "cad/references/Duct18_Fan_Envelopes_Reference.step",
+      "size_bytes": 161869,
+      "sha256": "676340eebf64f396c8ff24c6df53abd6420a71f09489bd1f1cf1550529c352fd"
+    },
+    {
+      "path": "cad/references/V620_Interface_Trim_Removed_Reference.step",
+      "size_bytes": 95927,
+      "sha256": "af890d01add03ad49ecc829a4576e43e30f7768630843edcd2c408d02e375d47"
+    },
+    {
+      "path": "cad/references/V620_Trimmed_Interface_Step19.step",
+      "size_bytes": 172777,
+      "sha256": "28f36016e3f5279c35c9241f68ca8f1e7565132e480f7c6651b73518d3bd2950"
+    },
+    {
+      "path": "cad/references/V620_Two_GPU_Interface.step",
+      "size_bytes": 238735,
+      "sha256": "33b0cdbce0ad1b0fc4095e6b93a5bd2b73acd4fad6ab1ce5b621be83fa806ea6"
+    },
+    {
+      "path": "checks/README.md",
+      "size_bytes": 1068,
+      "sha256": "fcc8addf876f712068fd3c5637cf3ea1759a9ab0a4ef52fcba5eba370c1350a5"
+    },
+    {
+      "path": "checks/print-baseline.json",
+      "size_bytes": 6319,
+      "sha256": "3660d90d0d8868514809d565452fb8161f23bc4347ad1ca247476ebce34a5036"
+    },
+    {
+      "path": "checks/step20/ducts20_fan_mount_checks.json",
+      "size_bytes": 2962,
+      "sha256": "1713b220fe0fb762c27bb639bd314ad0b83aecfd9ad546ee3c95a313178723f0"
+    },
+    {
+      "path": "checks/step20/ducts20_geometry_checks.json",
+      "size_bytes": 162,
+      "sha256": "e0aa7ab8a447530cb5a49a6c1fe1352684a372fb24e98476769a46f192a71ffd"
+    },
+    {
+      "path": "checks/step20/ducts20_manifest.json",
+      "size_bytes": 799,
+      "sha256": "1f97af875a61139e96be909f24407c78ed470b13b48c641b3083bddb6ac3e8e3"
+    },
+    {
+      "path": "checks/step20/ducts20_mesh_checks.json",
+      "size_bytes": 3624,
+      "sha256": "f280befb6f0702b8956c39507b4bebd01e39d9e971d375c5ebbe5148debc43a8"
+    },
+    {
+      "path": "checks/step20/ducts20_overhang_inspect.json",
+      "size_bytes": 183,
+      "sha256": "390f96cad4d41f8a076988f1c306fd6f3fe12c0d708c503f5dd0e747cdde1745"
+    },
+    {
+      "path": "checks/step20/ducts_step20_dimensions.json",
+      "size_bytes": 1102,
+      "sha256": "74082d55576c8a420e54e9fec6aa4ef64358c9740d1092e7db4c8bcc480fa655"
+    },
+    {
+      "path": "checks/step21/Lid21_Checks.json",
+      "size_bytes": 4031,
+      "sha256": "59e10ceccb0764524ac052650d354ca8ecb9152183388c04a9a811396f5d165c"
+    },
+    {
+      "path": "checks/step21/Lid21_Mesh_Checks.json",
+      "size_bytes": 1420,
+      "sha256": "c16f26a1e2b6d8b3c81f0f9ed3ce0c88f1dd175f6ff07f57a487b533aee25ef5"
+    },
+    {
+      "path": "checks/step22/Step22_Checks_And_Dimensions.json",
+      "size_bytes": 3455,
+      "sha256": "fe0655f47d1d45c97ef4fc5957a6dbbbb59ca1a93a6e4ebd6f7082dbc4dd21fb"
+    },
+    {
+      "path": "docs/archive/Ducts_Step20_README.md",
+      "size_bytes": 6593,
+      "sha256": "c3348ac2281e4e5fd2c84d1e654d9b3d47e62dbb9b511c5fee09b633fdd91736"
+    },
+    {
+      "path": "docs/archive/MOE_Chassis_Assembly_Guide.pdf",
+      "size_bytes": 2169808,
+      "sha256": "ea54c95c14faebd05c04bb6d83b65b51044faf317daf26a473ee58c58ea6a79e"
+    },
+    {
+      "path": "docs/archive/MOE_Duct_Assembly_Guide.pdf",
+      "size_bytes": 459243,
+      "sha256": "8bc61dfe3c3f4f6102dc16e30a369dc8ad88c508199318aeae57c04d7c6cfe5f"
+    },
+    {
+      "path": "docs/archive/README.md",
+      "size_bytes": 993,
+      "sha256": "fa0615788fadf3cad292c3846fa489662b7fa0f774b49ac218bb1b5cdf248a77"
+    },
+    {
+      "path": "docs/assembly.md",
+      "size_bytes": 5339,
+      "sha256": "b88b71f31ee1c3e167cc2a47beb1d21931d52516359c98c0a7c316f609639271"
+    },
+    {
+      "path": "docs/development.md",
+      "size_bytes": 4618,
+      "sha256": "8db68240b0287d80d50d597c8f941ffa4038503b6217f74e87b3597193450a67"
+    },
+    {
+      "path": "docs/dimensions.md",
+      "size_bytes": 2619,
+      "sha256": "e0079362a205381ee7b50dd63cdde38226bf12f287bde7137cf33384812bc7cf"
+    },
+    {
+      "path": "docs/duct-assembly.md",
+      "size_bytes": 5116,
+      "sha256": "ed2699aa93d0e21585d280f2c85dbe87619c36a37041cae7ee18fbe1df803ee8"
+    },
+    {
+      "path": "docs/hardware.md",
+      "size_bytes": 2974,
+      "sha256": "361bd3dca930b38596e30f2a3b7e866dbae70cd497b2c06c1cb19f5d79323e99"
+    },
+    {
+      "path": "docs/lid.md",
+      "size_bytes": 1583,
+      "sha256": "0418e3ce809f367cbf750a181c57694ec20861c99829d328287b9af9536825f9"
+    },
+    {
+      "path": "docs/printing.md",
+      "size_bytes": 2410,
+      "sha256": "8114d7bc31d9aaf47285412140deb81adbb46e67cb1e810adb08a535f157d821"
+    },
+    {
+      "path": "docs/reference/Lid21_Readme_And_Dimensions.txt",
+      "size_bytes": 5396,
+      "sha256": "bec24072a956dc70b9fd1041bebaee24269a228fa97a113d56905236ae813d48"
+    },
+    {
+      "path": "docs/reference/Step22_Retaining_Bar.txt",
+      "size_bytes": 5439,
+      "sha256": "d75692d291987139433d2728c811fe43df97fa0b11baface93b0eb8d13d2d551"
+    },
+    {
+      "path": "docs/revisions.md",
+      "size_bytes": 2356,
+      "sha256": "76ceec0a4a4dd694a0346089ec5065566ae55e2692957833e16d7062ad7b7a0d"
+    },
+    {
+      "path": "renders/chassis-bridges.png",
+      "size_bytes": 235699,
+      "sha256": "e3188788beb97fd9b50cf6b5abe1f9c38277d6b932f8bd47d39e43cd3581a2a0"
+    },
+    {
+      "path": "renders/chassis-quadrants.png",
+      "size_bytes": 310880,
+      "sha256": "65ef3978d8d6d749fa11370161610c73e584e45e15c81832ec3c7e05dfb504af"
+    },
+    {
+      "path": "renders/chassis-rear.png",
+      "size_bytes": 294168,
+      "sha256": "77b2d3172a55221d2140c0bffab2af93549443e6d2aafe77d3905537541e8b25"
+    },
+    {
+      "path": "renders/cradle-exploded.png",
+      "size_bytes": 142396,
+      "sha256": "9205e29f500f14c6afe7de5913420c2fcbe385e9405d4aecde7343196aa295f9"
+    },
+    {
+      "path": "renders/fan-corners.png",
+      "size_bytes": 92056,
+      "sha256": "a12bf29b9704f816c75267d5940c920b20f4609fc3c4f73f8d9dc69d17c39282"
+    },
+    {
+      "path": "renders/lid-step21.png",
+      "size_bytes": 476430,
+      "sha256": "1a51c77dbc93bfdc8a29a1e8d75e9e308d06cc53c54cb96513bbff61d2a7ec6a"
+    },
+    {
+      "path": "renders/overview-step20.png",
+      "size_bytes": 283227,
+      "sha256": "88590b879dbb7860ca4e60f74d073f4619fdc30c290a0b372ecc693cfacd738d"
+    },
+    {
+      "path": "renders/psu-shelf.png",
+      "size_bytes": 201907,
+      "sha256": "143ebdaedf4993ba78e45f220c240ea18aa168a7eb1cb5657b3e4ecea94ad01a"
+    },
+    {
+      "path": "renders/retaining-bar-step22.png",
+      "size_bytes": 302545,
+      "sha256": "2558edb34ec23d9f4aec5a2a29b089e60eb210f47379e48492f80212a8a0e254"
+    },
+    {
+      "path": "requirements-cad.txt",
+      "size_bytes": 44,
+      "sha256": "1cc97ec00adebe7fc69e09193b79d3462edd14213774dc5293cac3216992080a"
+    },
+    {
+      "path": "source/step20/check_ducts20_meshes.py",
+      "size_bytes": 1134,
+      "sha256": "1b7dd1801e0b861fb137ca382c2ef65add166109547d62736b55e84a2260a034"
+    },
+    {
+      "path": "source/step20/check_fan_mounts20.py",
+      "size_bytes": 1543,
+      "sha256": "020ad0002b78947a3989d98b08afb7733ccf79f513fb3b7573c3aa658e671246"
+    },
+    {
+      "path": "source/step20/check_print20.py",
+      "size_bytes": 1075,
+      "sha256": "c57e2806a7d1a2e3bf770065153d0279a42e31dc307420c5a55efd23060d2de1"
+    },
+    {
+      "path": "source/step20/ducts_step20.py",
+      "size_bytes": 8399,
+      "sha256": "3909721957720a09dc98a8dafd8247795cdebe885f4acd40d2865ec908c0d86c"
+    },
+    {
+      "path": "source/step20/finish_ducts20.py",
+      "size_bytes": 2988,
+      "sha256": "a116b15c590d7fdc15de96b6489a3de159930d175a442535eb3cc2f00dc8da47"
+    },
+    {
+      "path": "source/step20/render_ducts20.py",
+      "size_bytes": 2007,
+      "sha256": "4beafe74f3abed835ade8296765b611c20cb4e5a5fcdb9bdb6b38f1281f22f23"
+    },
+    {
+      "path": "source/step20/software_render_views.py",
+      "size_bytes": 2555,
+      "sha256": "61db99b3047dcb12d4e55682525a5dbe1bb617dd20b5073fb7a9bae273ef7e5d"
+    },
+    {
+      "path": "source/step20/trim_interface19.py",
+      "size_bytes": 778,
+      "sha256": "92ba25fe8aab422ec1b65a433d648171437ebad95c13500a1b1113fc6b56e8c3"
+    },
+    {
+      "path": "source/step21/check_lid21_meshes.py",
+      "size_bytes": 1598,
+      "sha256": "fcad94a1bf49f8eee64fd623246a76a4ae744fb0a956f7e6635a10918f03983f"
+    },
+    {
+      "path": "source/step21/lid_step21.py",
+      "size_bytes": 6436,
+      "sha256": "372a3effcc29046e09c61f41c43e4a2f4c8d49003597efc153f14c7497f3251e"
+    },
+    {
+      "path": "source/step21/render_lid21.py",
+      "size_bytes": 2425,
+      "sha256": "901fc0dd4267bd2e52624a9bfb935185af91c3d2d6534ebf6cff5414d8e66738"
+    },
+    {
+      "path": "source/step22/duct_bar22.py",
+      "size_bytes": 10520,
+      "sha256": "2cb98a943e3ec548b036709aab5e4fb302f71f94f40a3ed2c8703ba3db3b2534"
+    },
+    {
+      "path": "source/step22/render_bar22.py",
+      "size_bytes": 4089,
+      "sha256": "2da43d028ebd0ca57916bfeb957e63a5d308d51c415e0ff294d65343899cb30b"
+    },
+    {
+      "path": "tools/export_prints.py",
+      "size_bytes": 4364,
+      "sha256": "57a3605dfdbccab231bb743bfc695b8d70eddb8c51ae5ee86e1132bff9ffb749"
+    },
+    {
+      "path": "tools/package_prints.py",
+      "size_bytes": 1232,
+      "sha256": "b70cdeb1e48170f495a97ca1f3d7c870f3f1c50fd34ada6315d06b1bb7fa174b"
+    },
+    {
+      "path": "tools/rebuild.py",
+      "size_bytes": 1944,
+      "sha256": "227d1f87492ea9f4dcb8afc8b7620ef0aaa09bb90a266dd36ecf9c95c816b6a9"
+    },
+    {
+      "path": "tools/update_manifest.py",
+      "size_bytes": 829,
+      "sha256": "c85d6288a18c38a0a47be676e94a3bc8363089a1d7d76dc556d988df62933cb1"
+    },
+    {
+      "path": "tools/validate_package.py",
+      "size_bytes": 3292,
+      "sha256": "30eecb055570fc1fce7d0151655a7a1ae98a33c7f351ec6e93ce2de4166947e7"
+    }
+  ]
+}

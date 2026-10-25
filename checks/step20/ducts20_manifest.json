@@ -1,0 +1,46 @@
+{
+  "part_names": [
+    "PAIR_A_BASE",
+    "PAIR_A_REAR_SLIDER",
+    "PAIR_A_REAR_SADDLE",
+    "PAIR_A_REAR_RISER_10",
+    "PAIR_A_FRONT_SLIDER",
+    "PAIR_A_FRONT_SADDLE",
+    "PAIR_A_FRONT_RISER_10",
+    "PAIR_B_BASE",
+    "PAIR_B_REAR_SLIDER",
+    "PAIR_B_REAR_SADDLE",
+    "PAIR_B_REAR_RISER_10",
+    "PAIR_B_FRONT_SLIDER",
+    "PAIR_B_FRONT_SADDLE",
+    "PAIR_B_FRONT_RISER_10",
+    "PAIR_A_DUCT",
+    "PAIR_B_DUCT",
+    "FAN_BANK_CARRIER"
+  ],
+  "part_count": 17,
+  "duct_screw_centers_xyz": [
+    [
+      275.4432978723404,
+      358.0,
+      53.1
+    ],
+    [
+      261.3954255319149,
+      408.0,
+      53.1
+    ],
+    [
+      371.5522340425532,
+      358.0,
+      53.1
+    ],
+    [
+      371.2348581560284,
+      408.0,
+      53.1
+    ]
+  ],
+  "all_rigid": true,
+  "nominal_riser_mm": 10
+}
