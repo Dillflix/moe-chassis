@@ -4,12 +4,18 @@
 
 ## X10DRG-Q / RTX 8000 development
 
-The fork's R01 study has a separate generator:
+The fork's current R02 and preserved R01 studies have separate generators:
 
 ```bash
+python tools/build_x10drg_q_r02.py --output build/x10drg-q-r02
 python tools/build_x10drg_q.py --output build/x10drg-q-r01
 python tools/build_fit_coupons.py --output build/psu-fit-r01
 ```
+
+R02 adds [segmented duct and joint fit prototypes](x10drg-q-r02.md) for the
+confirmed [Bambu P1S](p1s-printing.md), one dedicated fan per passive card,
+and explicit PSU size sensitivity checks. Begin with its short joint sample;
+review the slice before printing. No full enclosure is generated.
 
 Read the [variant plan](x10drg-q-plan.md) and
 [measurement checklist](x10drg-q-measurements.md) before using its output.
@@ -32,6 +38,8 @@ python -m unittest discover -s tests -v
 These check the observed cable-clearance collision, fan rotor keepouts,
 parameter-dependent anchor coverage, actual exported STL dimensions and
 bed contact, output preservation, and the PSU coupon's remaining material.
+R02 also checks the actual mating-solid clearance, separate fan rotor volumes,
+blower inlet clearance, and P1S cutter/default-height limits.
 They do not establish physical fit or thermal performance.
 
 This repository publishes **Python, STEP geometry, guides, and CAD renders**. STL files and print ZIPs are generated locally. The saved STEP solids are the authoritative geometry for the printed build; the two open chassis fit bugs are still present.

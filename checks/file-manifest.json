@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 9286,
-      "sha256": "9ef778bc01a2952a64a8c18ccceb8c9d635654b9815c06f25a8b447a02ed25e6"
+      "size_bytes": 9769,
+      "sha256": "e8b6a49f1a97824fd4ea7131182f1a3b8eeb6c1021022107a4fd0541393ad25b"
     },
     {
       "path": "cad/chassis/6U_Chassis_Step_16.step",
@@ -162,6 +162,101 @@
       "sha256": "8f336c583f7d84421210ba64f78a5ed2a46fdbdc880f521648527d2fc94a532a"
     },
     {
+      "path": "cad/x10drg-q-r02/compact/layout.step",
+      "size_bytes": 1540855,
+      "sha256": "68123b056060b9f9ef8b4825a73a64658d70e8e9c4f15065de939d739becef73"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/layout.step",
+      "size_bytes": 1540866,
+      "sha256": "63a669646a03d9281bbb7e01b394e78b57ce6cd73645c0ad8699c6fb5eaf7f81"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT4_COLLAR_LOWER_PROTOTYPE.step",
+      "size_bytes": 66819,
+      "sha256": "636a46398879b31074cf216f97f63ea8af34e99080d3f9ca8cb18bfb12d38d3d"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT4_COLLAR_UPPER_PROTOTYPE.step",
+      "size_bytes": 66848,
+      "sha256": "e804dde9a4bc66ed973ec0298af26c1c2f28ba3ee9ad0935191e361d8721841b"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT4_FAN_HALF_PROTOTYPE.step",
+      "size_bytes": 52628,
+      "sha256": "177e23f8513123c4bc6e69bdd25f27c0652190db5d1e855124133359d972562b"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT4_GPU_HALF_PROTOTYPE.step",
+      "size_bytes": 112833,
+      "sha256": "19ba3a005bae994823cf46f0531ccff356658ba774320e7ed0429c19d58f43a7"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT6_COLLAR_LOWER_PROTOTYPE.step",
+      "size_bytes": 66819,
+      "sha256": "70a746a74e8e1c67e02a58ce5f0f84a2aafcac69b5aff1ee045e039cdc0d669e"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT6_COLLAR_UPPER_PROTOTYPE.step",
+      "size_bytes": 66848,
+      "sha256": "1379acab03ebdd44c0a041159be65b0e898b15e75ff82e6b1ff8386e9e9c0bca"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT6_FAN_HALF_PROTOTYPE.step",
+      "size_bytes": 52628,
+      "sha256": "7c31bcd701d5f75c07d4df47413b59effcfd98f385d2fc9c8e530fd22759a33e"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT6_GPU_HALF_PROTOTYPE.step",
+      "size_bytes": 112840,
+      "sha256": "7748bde0f91d9eb37d514cd6523cc25ba1275afee5e2661b7a46414dfaf863b3"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT8_COLLAR_LOWER_PROTOTYPE.step",
+      "size_bytes": 66963,
+      "sha256": "d18f871675355512aab5239d0d404a870484176de3589fc1d124c5ab0e962f59"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT8_COLLAR_UPPER_PROTOTYPE.step",
+      "size_bytes": 66974,
+      "sha256": "c720cd77c9372d49d234b67059ed6c8abde3d4ea7eba24499f58b19ba37313f5"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT8_FAN_HALF_PROTOTYPE.step",
+      "size_bytes": 52837,
+      "sha256": "93751f4fe873795b6278cccb002dd5575b152d5a632956102a3ee8cf897ee44b"
+    },
+    {
+      "path": "cad/x10drg-q-r02/extended/parts/SLOT8_GPU_HALF_PROTOTYPE.step",
+      "size_bytes": 117411,
+      "sha256": "1bf589b96377969a362ed2b1b7942f011ce05feea793402e8b8f6f9492285a1f"
+    },
+    {
+      "path": "cad/x10drg-q-r02/joint-coupon/layout.step",
+      "size_bytes": 293271,
+      "sha256": "fad3e119e076e082b9238cf77241950db5f1e0bb8ccc3138d433563deb2b14cc"
+    },
+    {
+      "path": "cad/x10drg-q-r02/joint-coupon/parts/COUPON_COLLAR_LOWER_PROTOTYPE.step",
+      "size_bytes": 66819,
+      "sha256": "1683ed98c0cb4700d5e86ad43b49c9c6942a2175ffcff9959ed90d0cdb2c45f8"
+    },
+    {
+      "path": "cad/x10drg-q-r02/joint-coupon/parts/COUPON_COLLAR_UPPER_PROTOTYPE.step",
+      "size_bytes": 66848,
+      "sha256": "90e0dea343c95290756b060d9f31b5d0ec281d44609b1ccc4f34c21663f4bbef"
+    },
+    {
+      "path": "cad/x10drg-q-r02/joint-coupon/parts/COUPON_FAN_HALF_PROTOTYPE.step",
+      "size_bytes": 32647,
+      "sha256": "d97175a39eea7e640ad24a4b419ee01e60a5cd5ec027a7c3881a689a2ad8f737"
+    },
+    {
+      "path": "cad/x10drg-q-r02/joint-coupon/parts/COUPON_GPU_HALF_PROTOTYPE.step",
+      "size_bytes": 75938,
+      "sha256": "c0e5b03d7d59bd163554656382cd49b7cee4fe8b63f091be24fe4828bb0d3310"
+    },
+    {
       "path": "checks/README.md",
       "size_bytes": 1068,
       "sha256": "fcc8addf876f712068fd3c5637cf3ea1759a9ab0a4ef52fcba5eba370c1350a5"
@@ -247,6 +342,41 @@
       "sha256": "519482b9c4acc0e4295cfd63c8cb5a94f3441b79fad3b4e5b1628826e4b75e36"
     },
     {
+      "path": "checks/x10drg-q-r02/compact/checks.json",
+      "size_bytes": 32855,
+      "sha256": "909918092323a45979792c426ff5ee468e20697ed79233c68157bbde50b8e12f"
+    },
+    {
+      "path": "checks/x10drg-q-r02/compact/dimensions.json",
+      "size_bytes": 24348,
+      "sha256": "7f9dc9410d6ad7546e299789a408476ac09bbc3b10b4c1d88de8bf8e8e2965aa"
+    },
+    {
+      "path": "checks/x10drg-q-r02/comparison.json",
+      "size_bytes": 756,
+      "sha256": "1831afaa1411821f89bffff358827a9ded102ae51c0f7dbba2a528030152d695"
+    },
+    {
+      "path": "checks/x10drg-q-r02/extended/checks.json",
+      "size_bytes": 28988,
+      "sha256": "e932096f559bdf3e22bc972cc01b0b11630d8db22b69f885a9d4b0db64bc20af"
+    },
+    {
+      "path": "checks/x10drg-q-r02/extended/dimensions.json",
+      "size_bytes": 24351,
+      "sha256": "fa5a972f48ac0c61ef69af1f5eecb8717e74ef5eef86a28aad42b7b37b45ea63"
+    },
+    {
+      "path": "checks/x10drg-q-r02/joint-coupon/checks.json",
+      "size_bytes": 7345,
+      "sha256": "7821c5e3f0ed71f01ad4bae7ec84d894e5b92f029f78d00a47e1c4bffd99a73a"
+    },
+    {
+      "path": "checks/x10drg-q-r02/joint-coupon/dimensions.json",
+      "size_bytes": 3043,
+      "sha256": "4ba5d11bd850ec2128998dc348bf67f6937b7273a1661f8b5ae17ed948517ae7"
+    },
+    {
       "path": "docs/archive/Ducts_Step20_README.md",
       "size_bytes": 6593,
       "sha256": "c3348ac2281e4e5fd2c84d1e654d9b3d47e62dbb9b511c5fee09b633fdd91736"
@@ -273,8 +403,8 @@
     },
     {
       "path": "docs/development.md",
-      "size_bytes": 5882,
-      "sha256": "96e82e4f90075c900a44f02d385242fc8bd231914b6b9505496e875bddf5f88c"
+      "size_bytes": 6410,
+      "sha256": "360a5a602f2f65b0f8ce822a66c60e74df82240a5c842aefb3440db1bc638412"
     },
     {
       "path": "docs/dimensions.md",
@@ -295,6 +425,11 @@
       "path": "docs/lid.md",
       "size_bytes": 1583,
       "sha256": "0418e3ce809f367cbf750a181c57694ec20861c99829d328287b9af9536825f9"
+    },
+    {
+      "path": "docs/p1s-printing.md",
+      "size_bytes": 5826,
+      "sha256": "bb80631e3fc7daa9314bd76f08b7b5d7150ea24320f034c25ccfbbc280e0587b"
     },
     {
       "path": "docs/printing.md",
@@ -318,18 +453,28 @@
     },
     {
       "path": "docs/revisions.md",
-      "size_bytes": 3393,
-      "sha256": "c12e53eb95371a6112390d9af651b1dd757720e9a4bf4596bae8722ead186b1a"
+      "size_bytes": 4602,
+      "sha256": "d8a7e061d3f9c38f7ae5f2ebfe5706b9540d19d835e120f5f2be7ef0576cb7ac"
     },
     {
       "path": "docs/x10drg-q-measurements.md",
-      "size_bytes": 13129,
-      "sha256": "2a1f9d93a659d88014617fde166814f0860bdaf1c225afcbf2861eb241b5ab17"
+      "size_bytes": 13841,
+      "sha256": "e7ea9dcdeecc4faab16b9284d96a4ffe59904e7617d3a0c1266f68295353837b"
     },
     {
       "path": "docs/x10drg-q-plan.md",
-      "size_bytes": 16625,
-      "sha256": "f1f727bbc5cd99a1a21da5931c67e1df14426139dbaec1937948ef7a3a7cc5e6"
+      "size_bytes": 17735,
+      "sha256": "b3f18788dc01b9d9bb322feefe94e7abaafe4f5cb84d0cfdd36a7c51074536c5"
+    },
+    {
+      "path": "docs/x10drg-q-psu-options.md",
+      "size_bytes": 16672,
+      "sha256": "a05d56ce14ca59c1c65dfe2a28fa96c3ffdbba3a6aa4d18d5c9c132f29ad8534"
+    },
+    {
+      "path": "docs/x10drg-q-r02.md",
+      "size_bytes": 7921,
+      "sha256": "b2eac7b51bce377f6e54ae4bb49df1602b5a1ed550250f7615c5d662acf0696f"
     },
     {
       "path": "renders/chassis-bridges.png",
@@ -400,6 +545,111 @@
       "path": "renders/x10drg-q-r01/extended/top.png",
       "size_bytes": 41448,
       "sha256": "c1d0f7fc6f59d58d6f4e5c34bd4ccade9ba9140cdcabd431c482f9a722b25e39"
+    },
+    {
+      "path": "renders/x10drg-q-r02/compact/overview.png",
+      "size_bytes": 82505,
+      "sha256": "0bfc0be3556976daa9fadd7fa20aa5921c9e1a32c51af9566f77cc29ff2ebf41"
+    },
+    {
+      "path": "renders/x10drg-q-r02/compact/top.png",
+      "size_bytes": 42857,
+      "sha256": "1badc1c4f7832574bf4d6514bb75b5aa17cbd420aae6e533d6ddd4dc908082fa"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/overview.png",
+      "size_bytes": 83389,
+      "sha256": "0acf6f4b255d7694c92d798aaf1d01a9cdfda4d232111ae3ef03d4c10411b8d1"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT4_COLLAR_LOWER_PROTOTYPE.png",
+      "size_bytes": 53757,
+      "sha256": "673b0a20894e3be8028a5ca38a64423bb01368a01bcde236e9af42872b258598"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT4_COLLAR_UPPER_PROTOTYPE.png",
+      "size_bytes": 50102,
+      "sha256": "3906ccecccec7ea34b0a0154b92f38b25f82da0227f9951c082751e49e430d71"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT4_FAN_HALF_PROTOTYPE.png",
+      "size_bytes": 52893,
+      "sha256": "84b84699e462df5549629a8234854364999ea78d3bd8854e7fa89a75c719c25f"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT4_GPU_HALF_PROTOTYPE.png",
+      "size_bytes": 54529,
+      "sha256": "59f0da747ac597797a7bec9765fa5cd66d65aa7b375730c1f536f1e4d3a1eeb0"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT6_COLLAR_LOWER_PROTOTYPE.png",
+      "size_bytes": 54031,
+      "sha256": "0661898b4af421f7e607258fc79a3a8da197fade748ae6b5b0272c13e730f708"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT6_COLLAR_UPPER_PROTOTYPE.png",
+      "size_bytes": 50391,
+      "sha256": "a1030f0bc517bf746452ab6b5188b89fa1be4b1ee180ed06fcb5d8a7c3188a5c"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT6_FAN_HALF_PROTOTYPE.png",
+      "size_bytes": 53939,
+      "sha256": "53f8cd1e45a0e945d9ca9dfbdde6122489e57458b2ee26d2b1cfe044918009e6"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT6_GPU_HALF_PROTOTYPE.png",
+      "size_bytes": 53742,
+      "sha256": "5be6b77e9f4461a933024b2d17dcd14db632109197fb27fa6c897c2c66e075e4"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT8_COLLAR_LOWER_PROTOTYPE.png",
+      "size_bytes": 54053,
+      "sha256": "9ff6ed1e164894d7589e9411472b5ad39ce9327131928c063c045b74501baea4"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT8_COLLAR_UPPER_PROTOTYPE.png",
+      "size_bytes": 50407,
+      "sha256": "29f1c4781ed8141b13930e0c7158b7959384408e42ce860591e05aa620b70e9c"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT8_FAN_HALF_PROTOTYPE.png",
+      "size_bytes": 55720,
+      "sha256": "989cc882902696efa1a125791e3391fa9b0c4276e0f7f768fbf89deaa2c9b649"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/parts/SLOT8_GPU_HALF_PROTOTYPE.png",
+      "size_bytes": 45073,
+      "sha256": "f5a55f8aa4aad5a2a0e203ce2e9cec3127cbcb6d7919174de24b62ff539df5a3"
+    },
+    {
+      "path": "renders/x10drg-q-r02/extended/top.png",
+      "size_bytes": 41369,
+      "sha256": "898dd37beba839fe1d86b4e2c43bb6475ec187c91b6017ca33f512e04364231e"
+    },
+    {
+      "path": "renders/x10drg-q-r02/joint-coupon/overview.png",
+      "size_bytes": 48149,
+      "sha256": "82c05008d38bf39c69aaf7d00f090eb6186c65223ea3296f61d330b079d70dfc"
+    },
+    {
+      "path": "renders/x10drg-q-r02/joint-coupon/parts/COUPON_COLLAR_LOWER_PROTOTYPE.png",
+      "size_bytes": 53594,
+      "sha256": "8476d47ef1aa38b6739cdd16cf3bf0e23fa64261e0cd59559abe3faef80d40e3"
+    },
+    {
+      "path": "renders/x10drg-q-r02/joint-coupon/parts/COUPON_COLLAR_UPPER_PROTOTYPE.png",
+      "size_bytes": 49766,
+      "sha256": "8dcdca437f85f8324844e7cee3f2db6581f80a81e992dbe85650208327a76154"
+    },
+    {
+      "path": "renders/x10drg-q-r02/joint-coupon/parts/COUPON_FAN_HALF_PROTOTYPE.png",
+      "size_bytes": 49901,
+      "sha256": "703b0eb11c42409cfa19110182fc1ecc992902b1bf1c64c4174c8b43612e8b62"
+    },
+    {
+      "path": "renders/x10drg-q-r02/joint-coupon/parts/COUPON_GPU_HALF_PROTOTYPE.png",
+      "size_bytes": 67742,
+      "sha256": "7a92fb59f381ac3aef4b11ea216e432d730d2936329ec69ad8a8c05deeee120b"
     },
     {
       "path": "requirements-cad.txt",
@@ -492,9 +742,29 @@
       "sha256": "18c93ebcf38bfcdd1b29e9cb00a26609e8686c39c00ec29a7bfec689da962343"
     },
     {
+      "path": "source/x10drg_q_r02/__init__.py",
+      "size_bytes": 74,
+      "sha256": "5e67dd0212a96b6daf987584252b58117256ca811286305538471c9659f3dbed"
+    },
+    {
+      "path": "source/x10drg_q_r02/build.py",
+      "size_bytes": 21011,
+      "sha256": "c3133b861dc207953021936e038483929c15d0c8360d862aaa45e34d9fd75290"
+    },
+    {
+      "path": "source/x10drg_q_r02/layout.json",
+      "size_bytes": 7298,
+      "sha256": "ca1f1a3afbc02cc5122351637fd58d51f3709ac90a1bd2991f2fc2c8a1c3f2df"
+    },
+    {
       "path": "tests/test_x10drg_q.py",
       "size_bytes": 5323,
       "sha256": "8e847d5a3095ce6f24f5016b98501c945a391b99c258963eed6b54b042ecf365"
+    },
+    {
+      "path": "tests/test_x10drg_q_r02.py",
+      "size_bytes": 4502,
+      "sha256": "718cc193584bb4b59b693f35319bb7e5192ac738cb9699e9c91ecf294bab2d94"
     },
     {
       "path": "tools/build_fit_coupons.py",
@@ -505,6 +775,11 @@
       "path": "tools/build_x10drg_q.py",
       "size_bytes": 578,
       "sha256": "f401edda234ea6188c73e42a6038a2b42e6c371015b460196cea5ca1c02b8cd5"
+    },
+    {
+      "path": "tools/build_x10drg_q_r02.py",
+      "size_bytes": 596,
+      "sha256": "33ff94deb6ab301887206ff7a077439f3b1d91505f739be3f7f6caeed4e68080"
     },
     {
       "path": "tools/export_prints.py",

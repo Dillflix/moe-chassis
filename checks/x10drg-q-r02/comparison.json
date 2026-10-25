@@ -1,0 +1,30 @@
+{
+  "revision": "X10DRG-Q-RTX8000-R02-FIT-PROTOTYPES",
+  "variants": {
+    "compact": {
+      "modeled_geometry_pass": false,
+      "collision_count": 3,
+      "outside_count": 0,
+      "prototype_count": 12,
+      "all_meshes_pass": true,
+      "all_placement_envelopes_pass": true,
+      "production_ready": false
+    },
+    "extended": {
+      "modeled_geometry_pass": true,
+      "collision_count": 0,
+      "outside_count": 0,
+      "prototype_count": 12,
+      "all_meshes_pass": true,
+      "all_placement_envelopes_pass": true,
+      "production_ready": false
+    }
+  },
+  "joint_coupon": {
+    "prototype_count": 4,
+    "collision_count": 0,
+    "all_meshes_pass": true,
+    "all_placement_envelopes_pass": true
+  },
+  "production_ready": false
+}

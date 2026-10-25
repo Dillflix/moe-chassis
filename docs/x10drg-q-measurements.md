@@ -1,4 +1,4 @@
-# X10DRG-Q measurement worksheet — R01
+# X10DRG-Q measurement worksheet — R01 / R02
 
 [Adaptation plan](x10drg-q-plan.md) · [Project](../README.md) · [Upstream datums](dimensions.md)
 
@@ -25,6 +25,8 @@ For each physical component, choose and photograph a local origin and axis direc
 ## Priority 1 — blocks final layout and mounting CAD
 
 ### Motherboard outline, holes and datums
+
+**The X10DRG-Q has not been ordered**, confirmed 25 October 2026. These measurements become actionable after obtaining the board or a reliable dimensioned drawing. GPU/bridge and printer-joint measurements can proceed now.
 
 The product page says **386.1 × 335.3mm**; a manual says **384.04 × 335.28mm**. The concept reserves the larger envelope. Resolve the discrepancy on the actual board before creating edge fits or hole patterns.
 
@@ -119,7 +121,7 @@ Create the final bridge keepout from the installed assembly, including any asymm
 
 ### Power supplies and cables
 
-**Dual 850W is a candidate capacity, not a selected PSU model or approved electrical arrangement.** Power-connector inventories and physical dimensions can vary substantially between supplies with the same wattage.
+**No PSUs selected as of 25 October 2026.** See the [current compact PSU shortlist](x10drg-q-psu-options.md). Dual 850W remains a candidate capacity, not a selected model or approved electrical arrangement. Power-connector inventories and physical dimensions can vary substantially between supplies with the same wattage.
 
 | Feature | PSU A | PSU B |
 |---|---|---|
@@ -183,15 +185,15 @@ The concept's **634.20mm depth** is provisional. Check it against the actual rac
 
 | Feature | Confirmed value |
 |---|---|
-| Printer manufacturer/model | |
-| Usable X × Y × Z build volume, including toolhead restrictions | |
-| Bed clips / purge / brim exclusion zones | |
+| Printer manufacturer/model | **Bambu P1S**, user confirmed 25 October 2026 |
+| Usable X × Y × Z build volume, including toolhead restrictions | Nominal 256³; default profile height 250. Conservative part target **220 × 220 × 240mm**; see [placement profile](p1s-printing.md). |
+| Bed clips / purge / brim exclusion zones | Stock cutter exclusion X0–18 / Y0–28mm; allow 5mm brim. Any additional plate/accessory exclusions still need recording. |
 | Nozzle size and intended layer height | |
 | Intended filament/material and manufacturer | |
 | Dimensional calibration / hole-fit coupon results | |
 | Proposed section orientation and support constraints | |
 
-The configurable **256mm** concept check is only a placeholder until this table is completed. The upstream main sections were designed for a Prusa XL; the user's printer is not yet known. Section limits must include brim/support allowances, not just the part's bounding box.
+R01 retains its historical **256mm** concept check. R02 targets the confirmed P1S and includes brim/exclusion checks; the original Prusa XL chassis sections are not an established P1S print set. Filament, actual nozzle and slicer support settings remain open. Section limits must include brim/support allowances, not just the part bounding box.
 
 ## Hardware stack worksheet
 

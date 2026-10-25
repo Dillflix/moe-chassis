@@ -1,4 +1,4 @@
-# X10DRG-Q adaptation plan — R01
+# X10DRG-Q adaptation plan — R01 / R02
 
 [Project](../README.md) · [Measurement worksheet](x10drg-q-measurements.md) · [Upstream dimensions](dimensions.md) · [Revision history](revisions.md)
 
@@ -8,11 +8,11 @@ Adapt MOE's construction approach for a **Supermicro X10DRG-Q, four Quadro RTX 8
 
 **R01 is a layout and duct concept, not a manufacturing release.** It uses bounding solids and explicit assumptions to explore fit. It does not contain a measured motherboard mounting pattern, validated GPU interfaces, a selected PSU installation or production-ready chassis sections. A successful CAD build does not establish electrical compatibility, physical fit, printed strength or cooling performance.
 
-The user has selected the X10DRG-Q as the leading motherboard candidate and reports **C$35 shipping** for the examined offer. This plan assumes reuse of the existing CPUs, GPUs and RAM; it does not authorize or record a purchase.
+The user has selected the X10DRG-Q as the leading motherboard candidate and reports **C$35 shipping** for the examined offer. The user confirmed on 25 October 2026 that the board has **not been ordered**, the printer is a **Bambu P1S**, and **no PSUs are selected**. This plan assumes reuse of the existing CPUs, GPUs and RAM; it does not record a purchase.
 
 ## Requirements and decisions
 
-| Requirement | R01 decision | Evidence or remaining condition |
+| Requirement | Current decision | Evidence or remaining condition |
 |---|---|---|
 | Four double-width RTX 8000s | Direct motherboard mounting in slots **2, 4, 6 and 8** | Board supports four PCIe 3.0 ×16 connections; exact card envelope and bracket geometry still require measurement. |
 | Two NVLink pairs | Pair slots **2↔4** and **6↔8** | Each pair remains connected to one CPU. Reserve bridge clearance; installed bridge spacing and body dimensions are unconfirmed. |
@@ -22,8 +22,8 @@ The user has selected the X10DRG-Q as the leading motherboard candidate and repo
 | CPU cooling | Plan for **narrow-ILM-compatible** coolers | The original ASUS factory cooler is identified as square ILM in the linked manufacturer material; confirm the actual installed heatsinks before attempting reuse. |
 | Three passive GPUs | Three separate sealed outlet paths from a fan/plenum assembly | V620 duct outlet geometry is not reusable as an RTX 8000 interface without measurement. |
 | One active GPU | Separate fresh-air access to its blower inlet and an unobstructed bracket exhaust | Keep the blower cooler fitted. Its inlet must not be enclosed inside a passive-card duct or blocked by a neighboring part. |
-| Power supplies | Reserve **two PSU envelopes**; dual 850W supplies are only a candidate | Models, dimensions, cable inventories, load allocation and synchronization remain unselected/unverified. |
-| Printer | Configurable build-volume constraint; **256mm** is a provisional checking dimension | The user's printer model and actual usable X/Y/Z travel are unknown. Do not describe the upstream Prusa XL as the user's printer. |
+| Power supplies | Reserve **two ATX PSU envelopes**, each up to 160mm body depth, plus a provisional 30mm cable zone | No model selected. [Compact Canadian candidates and cable inventory](x10drg-q-psu-options.md); cable bends and final load allocation remain unverified. |
+| Printer | **Bambu P1S**, confirmed; design print bodies within **220 × 220 × 240mm** | [P1S profile and placement](p1s-printing.md) account for a 5mm brim, the cutter exclusion and the default 250mm height. R01 retains its historical provisional 256mm check. |
 | Rack support | Shelf-supported custom enclosure | Upstream has no load-bearing rack ears. Rail or rack attachment needs a separate measured design and structural assessment. |
 
 ### CPU, memory and PCIe facts
@@ -97,6 +97,21 @@ and bed-contact checks. Full rectangular fan volumes include rotor space
 in collision checks, even though the renders show cutaway fan frames.
 The model lacks measured mounting interfaces and GPU power-plug keepouts;
 the extended result therefore does not establish a complete hardware fit.
+
+## R02 development direction
+
+The confirmed P1S removes the need to keep the printer envelope provisional.
+R02 is a separate generator and set of artifacts: three dedicated 120mm
+duct fans, one per passive card, with segmented ducts and removable joints.
+Equal fan inlet areas remove R01's 1:1:2 allocation; they do **not** prove
+equal airflow or adequate heatsink cooling. R01 remains available for comparison.
+
+The immediate physical prototype is a small duct-joint sample, followed by
+the measured GPU outlet interface. Motherboard standoffs and the rear wall
+remain deferred until the actual board or an authoritative dimensioned drawing
+provides hole, slot and I/O coordinates. PSU selection can proceed independently
+using the [shortlist](x10drg-q-psu-options.md), but its connector inventory and
+cable routing must be settled before freezing the mounts.
 
 ## Implementation milestones and acceptance gates
 

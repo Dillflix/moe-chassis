@@ -5,36 +5,44 @@ two Xeon E5-2630L v4 CPUs, eight 32GB ECC RDIMMs, three passive Quadro RTX
 8000s and one blower RTX 8000**, retaining two NVLink pairs and provision
 for two ATX power supplies.
 
-**R01 is a layout and cooling design study, not a chassis print release.**
-Motherboard mounting holes, absolute PCIe/I/O datums, actual GPU duct mouths,
-bridge dimensions, CPU coolers and PSU cable exits still require measurement.
-The generator keeps provisional geometry separate from verified dimensions.
+**R02 adds segmented duct fit prototypes for the confirmed Bambu P1S.**
+The motherboard has not been ordered and no PSUs are selected. This is a
+layout and interface study; a complete chassis is not ready to print.
 
+[Current R02 design and joint test](docs/x10drg-q-r02.md) ·
 [Design plan](docs/x10drg-q-plan.md) ·
-[Measurements needed](docs/x10drg-q-measurements.md) ·
-[PSU fit samples](docs/psu-fit-samples.md) ·
-[R01 extended STEP](cad/x10drg-q-r01/extended/layout.step) ·
-[Layout comparison](checks/x10drg-q-r01/comparison.json)
+[P1S printing](docs/p1s-printing.md) ·
+[PSU shortlist and cable budget](docs/x10drg-q-psu-options.md) ·
+[Measurements needed](docs/x10drg-q-measurements.md)
 
-![X10DRG-Q R01 concept generated from CAD](renders/x10drg-q-r01/extended/overview.png)
+![X10DRG-Q R02 concept generated from CAD](renders/x10drg-q-r02/extended/overview.png)
 
-| R01 layout | Modeled clearance result | Concept ducts on provisional 256mm printer |
+| R02 layout | Modeled clearance result | Confirmed P1S placement envelope |
 |---|---|---|
-| Original 584.2mm depth | Two PSU cable-reservation/duct collisions | Fit the nominal build volume; not fit-validated parts |
-| Extended 634.2mm depth | No collisions among the modeled envelopes | 290.6mm long; require splitting or a larger printer |
+| Original 584.2mm depth | Three PSU body/cable-zone clashes with ducts | All 12 duct/collar pieces fit with the configured brim allowance |
+| Extended 634.2mm depth | No collisions among the modeled envelopes | All 12 pieces fit, including the normal cutter exclusion |
 
-The extended option is the current layout candidate. Its three passive duct
-inlets have a **1:1:2 area ratio**: routing is modeled, but airflow balancing
-remains unresolved. Neither layout includes measured mounting interfaces or
-a printable full enclosure.
+The extended option remains the working candidate. Three dedicated 120mm
+fans replace R01's unequal 1:1:2 inlet allocation. The ducts now have
+removable spigot/socket joints and external split collars. Equal fan area
+is not evidence of equal airflow or adequate cooling. A small four-piece
+joint sample is provided for fitting before buying the board.
 
-Generate the new study independently of the preserved upstream print files:
+Generate the current prototypes independently of the preserved upstream files:
 
 ```bash
 python -m pip install -r requirements-cad.txt
-python tools/build_x10drg_q.py --output build/x10drg-q-r01
-python tools/build_fit_coupons.py --output build/psu-fit-r01
+python tools/build_x10drg_q_r02.py --output build/x10drg-q-r02
 ```
+
+Motherboard mounting holes, absolute PCIe/I/O datums, actual GPU duct mouths,
+bridge dimensions, CPU coolers and power-cable exits still require measurement.
+The full enclosure, structural supports and fan mounts remain future work.
+
+The [R01 layout comparison](checks/x10drg-q-r01/comparison.json),
+[R01 extended STEP](cad/x10drg-q-r01/extended/layout.step) and
+[PSU screw-seat samples](docs/psu-fit-samples.md) remain available. R01 keeps
+its original provisional printer check and unsplit cooling concept for traceability.
 
 The design uses the upstream coordinate convention: **+X left, +Y front,
 +Z up; floor Z19.05mm**. The original Step 16–22 files and their known fit
